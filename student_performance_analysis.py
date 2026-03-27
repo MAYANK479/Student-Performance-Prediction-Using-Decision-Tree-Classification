@@ -3,6 +3,13 @@
 # Algorithm: Decision Tree Classification
 # Dataset: UCI Student Performance Dataset (student-mat.csv)
 
+import os
+
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+MPLCONFIGDIR = os.path.join(SCRIPT_DIR, ".matplotlib")
+os.makedirs(MPLCONFIGDIR, exist_ok=True)
+os.environ.setdefault("MPLCONFIGDIR", MPLCONFIGDIR)
+
 import pandas as pd
 import numpy as np
 import matplotlib
@@ -13,7 +20,6 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier, plot_tree
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
-import os
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -23,7 +29,6 @@ plt.rcParams['savefig.dpi'] = 150
 plt.rcParams['font.size'] = 12
 
 # output folder for saving graphs
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 GRAPH_DIR = os.path.join(SCRIPT_DIR, "graphs")
 os.makedirs(GRAPH_DIR, exist_ok=True)
 
