@@ -1,8 +1,3 @@
-# Student Performance Analysis
-# Subject: Data Mining and Data Warehousing
-# Algorithm: Decision Tree Classification
-# Dataset: UCI Student Performance Dataset (student-mat.csv)
-
 import os
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -28,11 +23,10 @@ plt.rcParams['figure.dpi'] = 150
 plt.rcParams['savefig.dpi'] = 150
 plt.rcParams['font.size'] = 12
 
-# output folder for saving graphs
+# save all plots in one folder so they are easy to use in the report
 GRAPH_DIR = os.path.join(SCRIPT_DIR, "graphs")
 os.makedirs(GRAPH_DIR, exist_ok=True)
 
-# ---- Step 1: Load Dataset ----
 print("STEP 1: LOADING DATASET")
 
 DATA_PATH = os.path.join(SCRIPT_DIR, "archive", "student-mat.csv")
@@ -47,10 +41,8 @@ print(f"\nData types:\n{df.dtypes}")
 print(f"\nStatistical summary:\n{df.describe()}")
 
 
-# ---- Step 2: Data Preprocessing ----
 print("\nSTEP 2: DATA PREPROCESSING")
 
-# check missing values
 print("\nMissing values:")
 missing = df.isnull().sum()
 print(missing)
@@ -68,7 +60,6 @@ else:
             df[col].fillna(df[col].median(), inplace=True)
     print("Done.")
 
-# label encoding for categorical columns
 print("\nEncoding categorical columns...")
 categorical_columns = df.select_dtypes(include=['object']).columns.tolist()
 print(f"Categorical columns: {categorical_columns}")
@@ -80,8 +71,8 @@ for col in categorical_columns:
 
 print("Label encoding complete.")
 
-# create target variable (pass/fail based on G3 >= 10)
 print("\nCreating target variable 'Result'...")
+# final grade 10 or above is considered pass
 df['Result'] = df['G3'].apply(lambda x: 1 if x >= 10 else 0)
 pass_count = df['Result'].sum()
 fail_count = len(df) - pass_count
@@ -92,10 +83,8 @@ print(f"\nDataset after preprocessing:")
 print(df.head())
 
 
-# ---- Step 3: Exploratory Data Analysis ----
 print("\nSTEP 3: EXPLORATORY DATA ANALYSIS")
 
-# 3.1 Distribution of G3 (Final Grade)
 print("\nPlotting G3 distribution...")
 fig, ax = plt.subplots(figsize=(10, 6))
 sns.histplot(df['G3'], bins=20, kde=True, color='steelblue', edgecolor='black', ax=ax)
@@ -109,7 +98,6 @@ plt.savefig(os.path.join(GRAPH_DIR, 'g3_distribution.png'))
 plt.close()
 print("Saved: graphs/g3_distribution.png")
 
-# 3.2 Pass/Fail count plot
 print("\nPlotting pass/fail distribution...")
 fig, ax = plt.subplots(figsize=(8, 6))
 colors = ['#e74c3c', '#2ecc71']
@@ -126,7 +114,6 @@ plt.savefig(os.path.join(GRAPH_DIR, 'pass_fail_countplot.png'))
 plt.close()
 print("Saved: graphs/pass_fail_countplot.png")
 
-# 3.3 Correlation heatmap
 print("\nPlotting correlation heatmap...")
 fig, ax = plt.subplots(figsize=(18, 14))
 correlation = df.corr()
@@ -140,7 +127,6 @@ plt.savefig(os.path.join(GRAPH_DIR, 'correlation_heatmap.png'))
 plt.close()
 print("Saved: graphs/correlation_heatmap.png")
 
-# 3.4 Study time vs result
 print("\nPlotting study time vs result...")
 fig, ax = plt.subplots(figsize=(10, 6))
 studytime_result = df.groupby('studytime')['Result'].mean() * 100
@@ -160,7 +146,6 @@ plt.savefig(os.path.join(GRAPH_DIR, 'studytime_vs_result.png'))
 plt.close()
 print("Saved: graphs/studytime_vs_result.png")
 
-# 3.5 Failures vs result
 print("\nPlotting failures vs result...")
 fig, ax = plt.subplots(figsize=(10, 6))
 failures_result = df.groupby('failures')['Result'].mean() * 100
@@ -180,10 +165,9 @@ plt.close()
 print("Saved: graphs/failures_vs_result.png")
 
 
-# ---- Step 4: Feature Selection ----
 print("\nSTEP 4: FEATURE SELECTION")
 
-# drop G3 since Result is derived from it
+# remove G3 because Result is created from it
 X = df.drop(columns=['G3', 'Result'])
 y = df['Result']
 
@@ -193,7 +177,6 @@ print(f"Target: Result (1=Pass, 0=Fail)")
 print(f"Total samples: {len(y)}")
 
 
-# ---- Step 5: Train-Test Split ----
 print("\nSTEP 5: TRAIN-TEST SPLIT")
 
 X_train, X_test, y_train, y_test = train_test_split(
@@ -204,7 +187,6 @@ print(f"Training set: {X_train.shape[0]} samples ({X_train.shape[0]/len(df)*100:
 print(f"Testing set:  {X_test.shape[0]} samples ({X_test.shape[0]/len(df)*100:.1f}%)")
 
 
-# ---- Step 6: Decision Tree Classification ----
 print("\nSTEP 6: DECISION TREE CLASSIFICATION")
 
 dt_classifier = DecisionTreeClassifier(
@@ -223,14 +205,11 @@ y_pred = dt_classifier.predict(X_test)
 print("Predictions done on test set.")
 
 
-# ---- Step 7: Model Evaluation ----
 print("\nSTEP 7: MODEL EVALUATION")
 
-# accuracy
 accuracy = accuracy_score(y_test, y_pred)
 print(f"\nAccuracy: {accuracy * 100:.2f}%")
 
-# confusion matrix
 print("\nConfusion Matrix:")
 cm = confusion_matrix(y_test, y_pred)
 print(cm)
@@ -239,12 +218,10 @@ print(f"  False Positives (Fail predicted as Pass):   {cm[0][1]}")
 print(f"  False Negatives (Pass predicted as Fail):   {cm[1][0]}")
 print(f"  True Positives  (correctly predicted Pass): {cm[1][1]}")
 
-# classification report
 print("\nClassification Report:")
 report = classification_report(y_test, y_pred, target_names=['Fail (0)', 'Pass (1)'])
 print(report)
 
-# confusion matrix heatmap
 print("Plotting confusion matrix...")
 fig, ax = plt.subplots(figsize=(8, 6))
 sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=['Fail (0)', 'Pass (1)'],
@@ -259,9 +236,9 @@ plt.close()
 print("Saved: graphs/confusion_matrix.png")
 
 
-# ---- Step 8: Feature Importance ----
 print("\nSTEP 8: FEATURE IMPORTANCE")
 
+# sorting makes the bar chart easier to read from low to high
 feature_importance = pd.DataFrame({
     'Feature': X.columns,
     'Importance': dt_classifier.feature_importances_
@@ -273,7 +250,6 @@ for _, row in top_features.iterrows():
     bar = '█' * int(row['Importance'] * 50)
     print(f"  {row['Feature']:>12s}: {row['Importance']:.4f} {bar}")
 
-# plot feature importance
 print("\nPlotting feature importance...")
 fig, ax = plt.subplots(figsize=(12, 8))
 colors = plt.cm.viridis(np.linspace(0.2, 0.9, len(feature_importance)))
@@ -288,7 +264,6 @@ plt.close()
 print("Saved: graphs/feature_importance.png")
 
 
-# ---- Step 9: Decision Tree Visualization ----
 print("\nSTEP 9: DECISION TREE VISUALIZATION")
 
 print("Plotting decision tree...")
@@ -310,7 +285,6 @@ plt.close()
 print("Saved: graphs/decision_tree.png")
 
 
-# ---- Summary ----
 print("\n" + "=" * 50)
 print("PROJECT COMPLETE")
 print("=" * 50)
