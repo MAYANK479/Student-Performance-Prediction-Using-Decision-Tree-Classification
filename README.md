@@ -1,13 +1,13 @@
 # Student Performance Prediction Using Decision Tree
 
-This is my Data Mining and Data Warehousing project based on the UCI Student Performance dataset.
+This repository contains a student performance prediction project built using the UCI Student Performance dataset.
 
-In this project, I used the `student-mat.csv` dataset and built a Decision Tree model to predict whether a student will pass or fail based on different factors like study time, past failures, family background, absences, and previous grades.
+The project uses the `student-mat.csv` dataset and applies a Decision Tree classifier to predict whether a student will pass or fail based on factors such as study time, past failures, family background, absences, and previous grades.
 
 ## What this project does
 
 - loads the student dataset
-- checks and preprocesses the data
+- preprocesses the data
 - encodes categorical columns
 - creates a pass/fail target using `G3`
 - trains a Decision Tree classifier
@@ -66,6 +66,8 @@ python3 student_performance_analysis.py
 - seaborn
 - scikit-learn
 
-## Note
+## Future improvements
 
-This project is mainly for academic learning and to understand how data mining can be used for student performance prediction.
+- compare Decision Tree with other machine learning models
+- add cross-validation for better evaluation
+- improve the project structure and documentation over time

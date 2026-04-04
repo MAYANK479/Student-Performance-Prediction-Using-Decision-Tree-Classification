@@ -18,6 +18,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 import warnings
 warnings.filterwarnings('ignore')
 
+# using Agg backend so plots can be saved directly without opening a window
 sns.set_style("whitegrid")
 plt.rcParams['figure.dpi'] = 150
 plt.rcParams['savefig.dpi'] = 150
@@ -30,6 +31,7 @@ os.makedirs(GRAPH_DIR, exist_ok=True)
 print("STEP 1: LOADING DATASET")
 
 DATA_PATH = os.path.join(SCRIPT_DIR, "archive", "student-mat.csv")
+# the dataset uses semicolon as separator instead of comma
 df = pd.read_csv(DATA_PATH, sep=';')
 
 print("\nFirst 5 rows:")
@@ -49,6 +51,7 @@ print(missing)
 total_missing = missing.sum()
 print(f"Total missing: {total_missing}")
 
+# if any values are missing, fill text columns with mode and numeric columns with median
 if total_missing == 0:
     print("No missing values found.")
 else:
@@ -64,6 +67,7 @@ print("\nEncoding categorical columns...")
 categorical_columns = df.select_dtypes(include=['object']).columns.tolist()
 print(f"Categorical columns: {categorical_columns}")
 
+# machine learning models need numeric input, so text values are encoded first
 le = LabelEncoder()
 for col in categorical_columns:
     df[col] = le.fit_transform(df[col])
@@ -101,6 +105,7 @@ print("Saved: graphs/g3_distribution.png")
 print("\nPlotting pass/fail distribution...")
 fig, ax = plt.subplots(figsize=(8, 6))
 colors = ['#e74c3c', '#2ecc71']
+# value_counts gives total students in each class
 result_counts = df['Result'].value_counts().sort_index()
 bars = ax.bar(['Fail (0)', 'Pass (1)'], result_counts.values, color=colors, edgecolor='black', width=0.5)
 for bar, count in zip(bars, result_counts.values):
@@ -129,6 +134,7 @@ print("Saved: graphs/correlation_heatmap.png")
 
 print("\nPlotting study time vs result...")
 fig, ax = plt.subplots(figsize=(10, 6))
+# mean of Result gives pass rate because pass is stored as 1 and fail as 0
 studytime_result = df.groupby('studytime')['Result'].mean() * 100
 bars = ax.bar(studytime_result.index, studytime_result.values,
               color=['#3498db', '#2ecc71', '#e67e22', '#9b59b6'],
@@ -148,6 +154,7 @@ print("Saved: graphs/studytime_vs_result.png")
 
 print("\nPlotting failures vs result...")
 fig, ax = plt.subplots(figsize=(10, 6))
+# this shows how previous failures affect current pass percentage
 failures_result = df.groupby('failures')['Result'].mean() * 100
 bars = ax.bar(failures_result.index, failures_result.values,
               color=['#2ecc71', '#f39c12', '#e74c3c', '#c0392b'],
@@ -179,6 +186,7 @@ print(f"Total samples: {len(y)}")
 
 print("\nSTEP 5: TRAIN-TEST SPLIT")
 
+# 70% data is used for training and 30% for testing
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.30, random_state=42
 )
@@ -189,6 +197,7 @@ print(f"Testing set:  {X_test.shape[0]} samples ({X_test.shape[0]/len(df)*100:.1
 
 print("\nSTEP 6: DECISION TREE CLASSIFICATION")
 
+# max_depth=5 keeps the tree simple enough to understand during presentation
 dt_classifier = DecisionTreeClassifier(
     criterion='gini',
     random_state=42,
@@ -201,6 +210,7 @@ print(f"Criterion: Gini Index")
 print(f"Max Depth: {dt_classifier.get_depth()}")
 print(f"Number of Leaves: {dt_classifier.get_n_leaves()}")
 
+# predictions are made only on the test data
 y_pred = dt_classifier.predict(X_test)
 print("Predictions done on test set.")
 
@@ -219,6 +229,7 @@ print(f"  False Negatives (Pass predicted as Fail):   {cm[1][0]}")
 print(f"  True Positives  (correctly predicted Pass): {cm[1][1]}")
 
 print("\nClassification Report:")
+# classification report gives precision, recall and f1-score for both classes
 report = classification_report(y_test, y_pred, target_names=['Fail (0)', 'Pass (1)'])
 print(report)
 
@@ -267,6 +278,7 @@ print("Saved: graphs/feature_importance.png")
 print("\nSTEP 9: DECISION TREE VISUALIZATION")
 
 print("Plotting decision tree...")
+# plot_tree helps show the decision rules followed by the model
 fig, ax = plt.subplots(figsize=(20, 10), dpi=100)
 plot_tree(
     dt_classifier,
