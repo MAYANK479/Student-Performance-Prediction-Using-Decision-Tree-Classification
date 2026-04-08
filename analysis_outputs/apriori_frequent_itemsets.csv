@@ -1,0 +1,1366 @@
+Itemset,Length,Support
+HigherEducation=yes,1,0.9494
+School=GP,1,0.8835
+SchoolSupport=no,1,0.8709
+Internet=yes,1,0.8329
+Failures=0,1,0.7899
+Address=U,1,0.7772
+FamilySize=GT3,1,0.7114
+Result=Pass,1,0.6709
+Romantic=no,1,0.6658
+FamilySupport=yes,1,0.6127
+Sex=F,1,0.5266
+Activities=yes,1,0.5089
+StudyTime=2-5 hrs,1,0.5013
+Activities=no,1,0.4911
+G1Level=Medium,1,0.4759
+Sex=M,1,0.4734
+AgeGroup=<=16,1,0.4709
+Absences=Low,1,0.4633
+G2Level=Medium,1,0.4608
+AgeGroup=17-18,1,0.4557
+FamilySupport=no,1,0.3873
+Absences=Medium,1,0.3696
+G2Level=Low,1,0.3696
+G1Level=Low,1,0.3595
+Romantic=yes,1,0.3342
+Result=Fail,1,0.3291
+FamilySize=LE3,1,0.2886
+StudyTime=<2 hrs,1,0.2658
+Address=R,1,0.2228
+"HigherEducation=yes, School=GP",2,0.8405
+"HigherEducation=yes, SchoolSupport=no",2,0.8228
+"HigherEducation=yes, Internet=yes",2,0.7924
+"Failures=0, HigherEducation=yes",2,0.7722
+"School=GP, SchoolSupport=no",2,0.7544
+"Internet=yes, School=GP",2,0.7519
+"Address=U, HigherEducation=yes",2,0.7418
+"Internet=yes, SchoolSupport=no",2,0.7266
+"Address=U, School=GP",2,0.7241
+"Failures=0, School=GP",2,0.7089
+"Failures=0, SchoolSupport=no",2,0.6886
+"Address=U, Internet=yes",2,0.681
+"FamilySize=GT3, HigherEducation=yes",2,0.6759
+"Address=U, SchoolSupport=no",2,0.6734
+"Failures=0, Internet=yes",2,0.6709
+"HigherEducation=yes, Result=Pass",2,0.6532
+"HigherEducation=yes, Romantic=no",2,0.643
+"FamilySize=GT3, School=GP",2,0.638
+"Address=U, Failures=0",2,0.6304
+"FamilySize=GT3, SchoolSupport=no",2,0.6152
+"Result=Pass, SchoolSupport=no",2,0.6
+"Result=Pass, School=GP",2,0.5975
+"Romantic=no, School=GP",2,0.5975
+"Failures=0, Result=Pass",2,0.5924
+"FamilySize=GT3, Internet=yes",2,0.5924
+"FamilySupport=yes, HigherEducation=yes",2,0.5924
+"Internet=yes, Result=Pass",2,0.5696
+"FamilySupport=yes, School=GP",2,0.5671
+"Romantic=no, SchoolSupport=no",2,0.5671
+"Failures=0, FamilySize=GT3",2,0.562
+"Failures=0, Romantic=no",2,0.5468
+"Address=U, FamilySize=GT3",2,0.5392
+"Internet=yes, Romantic=no",2,0.5392
+"Address=U, Result=Pass",2,0.5316
+"FamilySupport=yes, Internet=yes",2,0.5291
+"FamilySupport=yes, SchoolSupport=no",2,0.5165
+"HigherEducation=yes, Sex=F",2,0.5165
+"Address=U, Romantic=no",2,0.5165
+"Failures=0, FamilySupport=yes",2,0.4987
+"Activities=yes, HigherEducation=yes",2,0.4937
+"HigherEducation=yes, StudyTime=2-5 hrs",2,0.481
+"Address=U, FamilySupport=yes",2,0.481
+"FamilySize=GT3, Romantic=no",2,0.481
+"AgeGroup=<=16, School=GP",2,0.4709
+"Activities=yes, School=GP",2,0.4684
+"Result=Pass, Romantic=no",2,0.4684
+"FamilySize=GT3, Result=Pass",2,0.4684
+"School=GP, Sex=F",2,0.4633
+"AgeGroup=<=16, HigherEducation=yes",2,0.4633
+"FamilySize=GT3, FamilySupport=yes",2,0.4608
+"G1Level=Medium, HigherEducation=yes",2,0.4582
+"Activities=no, HigherEducation=yes",2,0.4557
+"School=GP, StudyTime=2-5 hrs",2,0.4456
+"G2Level=Medium, HigherEducation=yes",2,0.4456
+"G2Level=Medium, Result=Pass",2,0.4405
+"SchoolSupport=no, Sex=F",2,0.4354
+"Activities=no, SchoolSupport=no",2,0.4354
+"SchoolSupport=no, Sex=M",2,0.4354
+"Activities=yes, SchoolSupport=no",2,0.4354
+"Activities=yes, Internet=yes",2,0.4329
+"HigherEducation=yes, Sex=M",2,0.4329
+"AgeGroup=17-18, SchoolSupport=no",2,0.4329
+"Absences=Low, HigherEducation=yes",2,0.4329
+"Internet=yes, Sex=F",2,0.4304
+"Failures=0, Sex=F",2,0.4253
+"SchoolSupport=no, StudyTime=2-5 hrs",2,0.4253
+"AgeGroup=17-18, HigherEducation=yes",2,0.4228
+"G1Level=Medium, SchoolSupport=no",2,0.4203
+"School=GP, Sex=M",2,0.4203
+"G1Level=Medium, School=GP",2,0.4177
+"Failures=0, G1Level=Medium",2,0.4152
+"Address=U, Sex=F",2,0.4152
+"Activities=no, School=GP",2,0.4152
+"Address=U, StudyTime=2-5 hrs",2,0.4127
+"G1Level=Medium, Result=Pass",2,0.4101
+"Activities=yes, Failures=0",2,0.4101
+"G2Level=Medium, School=GP",2,0.4076
+"Internet=yes, StudyTime=2-5 hrs",2,0.4076
+"Absences=Low, School=GP",2,0.4076
+"AgeGroup=<=16, Internet=yes",2,0.4076
+"Address=U, AgeGroup=<=16",2,0.4051
+"Absences=Low, SchoolSupport=no",2,0.4051
+"FamilySupport=yes, Romantic=no",2,0.4051
+"AgeGroup=<=16, Failures=0",2,0.4025
+"Internet=yes, Sex=M",2,0.4025
+"Activities=no, Internet=yes",2,0.4
+"Failures=0, StudyTime=2-5 hrs",2,0.4
+"G2Level=Medium, SchoolSupport=no",2,0.4
+"G1Level=Medium, Internet=yes",2,0.4
+"FamilySupport=yes, Result=Pass",2,0.3975
+"FamilySize=GT3, Sex=F",2,0.3949
+"Failures=0, G2Level=Medium",2,0.3924
+"Activities=no, Address=U",2,0.3924
+"G2Level=Medium, Internet=yes",2,0.3899
+"Activities=yes, Address=U",2,0.3848
+"Absences=Low, Failures=0",2,0.3797
+"Activities=no, Failures=0",2,0.3797
+"Absences=Low, Internet=yes",2,0.3772
+"AgeGroup=17-18, Internet=yes",2,0.3747
+"Address=U, G1Level=Medium",2,0.3747
+"AgeGroup=17-18, Failures=0",2,0.3722
+"Absences=Low, Address=U",2,0.3671
+"AgeGroup=<=16, SchoolSupport=no",2,0.3671
+"G1Level=Medium, G2Level=Medium",2,0.3646
+"Failures=0, Sex=M",2,0.3646
+"Address=U, G2Level=Medium",2,0.3646
+"Activities=yes, FamilySize=GT3",2,0.362
+"AgeGroup=17-18, School=GP",2,0.362
+"Address=U, Sex=M",2,0.362
+"Absences=Medium, HigherEducation=yes",2,0.3595
+"FamilySupport=yes, Sex=F",2,0.3595
+"FamilySupport=no, HigherEducation=yes",2,0.357
+"FamilySupport=no, SchoolSupport=no",2,0.3544
+"AgeGroup=<=16, Romantic=no",2,0.3519
+"Activities=no, FamilySize=GT3",2,0.3494
+"AgeGroup=<=16, Result=Pass",2,0.3494
+"AgeGroup=<=16, FamilySize=GT3",2,0.3468
+"Activities=yes, Result=Pass",2,0.3443
+"Absences=Low, FamilySize=GT3",2,0.3418
+"Romantic=no, Sex=M",2,0.3392
+"FamilySize=GT3, G1Level=Medium",2,0.3367
+"Result=Pass, Sex=F",2,0.3367
+"Activities=yes, Romantic=no",2,0.3342
+"G2Level=Low, HigherEducation=yes",2,0.3342
+"Result=Pass, Sex=M",2,0.3342
+"FamilySize=GT3, StudyTime=2-5 hrs",2,0.3316
+"Activities=no, Romantic=no",2,0.3316
+"Activities=no, Result=Pass",2,0.3266
+"G1Level=Low, HigherEducation=yes",2,0.3266
+"Romantic=no, Sex=F",2,0.3266
+"Result=Pass, StudyTime=2-5 hrs",2,0.3241
+"FamilySupport=yes, StudyTime=2-5 hrs",2,0.3241
+"FamilySize=GT3, G2Level=Medium",2,0.3215
+"Absences=Low, Romantic=no",2,0.319
+"Romantic=no, StudyTime=2-5 hrs",2,0.319
+"Absences=Medium, School=GP",2,0.319
+"G2Level=Low, School=GP",2,0.319
+"Address=U, AgeGroup=17-18",2,0.319
+"Absences=Medium, SchoolSupport=no",2,0.319
+"FamilySupport=no, School=GP",2,0.3165
+"FamilySize=GT3, Sex=M",2,0.3165
+"G1Level=Low, School=GP",2,0.3165
+"AgeGroup=<=16, FamilySupport=yes",2,0.3139
+"Absences=Medium, Failures=0",2,0.3114
+"Activities=yes, FamilySupport=yes",2,0.3114
+"G2Level=Low, Result=Fail",2,0.3089
+"AgeGroup=17-18, FamilySize=GT3",2,0.3089
+"Absences=Medium, Internet=yes",2,0.3063
+"HigherEducation=yes, Romantic=yes",2,0.3063
+"G2Level=Low, SchoolSupport=no",2,0.3063
+"G2Level=Medium, Romantic=no",2,0.3063
+"Absences=Low, Result=Pass",2,0.3063
+"Romantic=yes, SchoolSupport=no",2,0.3038
+"FamilySupport=no, Internet=yes",2,0.3038
+"Activities=no, FamilySupport=yes",2,0.3013
+"G1Level=Low, G2Level=Low",2,0.2987
+"G1Level=Medium, Romantic=no",2,0.2987
+"Address=U, FamilySupport=no",2,0.2962
+"HigherEducation=yes, Result=Fail",2,0.2962
+"Internet=yes, Romantic=yes",2,0.2937
+"Failures=0, FamilySupport=no",2,0.2911
+"AgeGroup=17-18, Result=Pass",2,0.2886
+"FamilySupport=yes, G1Level=Medium",2,0.2886
+"G2Level=Low, Internet=yes",2,0.2886
+"G1Level=Low, Internet=yes",2,0.2886
+"G1Level=Low, SchoolSupport=no",2,0.2886
+"FamilySupport=yes, G2Level=Medium",2,0.2861
+"Romantic=yes, School=GP",2,0.2861
+"Result=Fail, School=GP",2,0.2861
+"Absences=Low, FamilySupport=yes",2,0.2861
+"Sex=F, StudyTime=2-5 hrs",2,0.2861
+"Activities=no, Sex=F",2,0.2835
+"FamilySize=GT3, G2Level=Low",2,0.2785
+"FamilySize=LE3, HigherEducation=yes",2,0.2734
+"Absences=Medium, Result=Pass",2,0.2734
+"AgeGroup=17-18, Romantic=no",2,0.2734
+"Absences=Medium, Address=U",2,0.2734
+"FamilySupport=no, Result=Pass",2,0.2734
+"Result=Fail, SchoolSupport=no",2,0.2709
+"Address=U, G1Level=Low",2,0.2684
+"Address=U, G2Level=Low",2,0.2684
+"Activities=yes, Sex=M",2,0.2658
+"Activities=yes, AgeGroup=<=16",2,0.2658
+"AgeGroup=17-18, FamilySupport=yes",2,0.2633
+"Internet=yes, Result=Fail",2,0.2633
+"FamilySize=GT3, G1Level=Low",2,0.2633
+"G1Level=Low, Result=Fail",2,0.2633
+"Absences=Medium, FamilySize=GT3",2,0.2633
+"Activities=yes, StudyTime=2-5 hrs",2,0.2608
+"FamilySupport=no, Romantic=no",2,0.2608
+"Address=U, Romantic=yes",2,0.2608
+"Absences=Medium, Romantic=no",2,0.2582
+"AgeGroup=17-18, Sex=F",2,0.2557
+"FamilySize=LE3, SchoolSupport=no",2,0.2557
+"FamilySupport=yes, Sex=M",2,0.2532
+"Absences=Low, AgeGroup=<=16",2,0.2532
+"FamilySize=GT3, FamilySupport=no",2,0.2506
+"G1Level=Medium, Sex=F",2,0.2481
+"Address=U, Result=Fail",2,0.2456
+"FamilySize=LE3, School=GP",2,0.2456
+"Absences=Low, Sex=F",2,0.2456
+"G1Level=Low, Romantic=no",2,0.2456
+"Absences=Low, StudyTime=2-5 hrs",2,0.243
+"G2Level=Medium, Sex=F",2,0.243
+"Activities=yes, Sex=F",2,0.243
+"Failures=0, Romantic=yes",2,0.243
+"FamilySize=GT3, Result=Fail",2,0.243
+"SchoolSupport=no, StudyTime=<2 hrs",2,0.2405
+"Activities=yes, G2Level=Medium",2,0.2405
+"FamilySize=LE3, Internet=yes",2,0.2405
+"Activities=no, StudyTime=2-5 hrs",2,0.2405
+"Activities=no, AgeGroup=17-18",2,0.2405
+"Address=U, FamilySize=LE3",2,0.238
+"Activities=yes, G1Level=Medium",2,0.238
+"AgeGroup=<=16, Sex=M",2,0.238
+"Activities=no, G1Level=Medium",2,0.238
+"FamilySupport=yes, G1Level=Low",2,0.2354
+"Absences=Low, Activities=no",2,0.2354
+"HigherEducation=yes, StudyTime=<2 hrs",2,0.2354
+"AgeGroup=<=16, StudyTime=2-5 hrs",2,0.2329
+"G1Level=Medium, StudyTime=2-5 hrs",2,0.2329
+"AgeGroup=<=16, Sex=F",2,0.2329
+"AgeGroup=17-18, StudyTime=2-5 hrs",2,0.2329
+"FamilySupport=yes, G2Level=Low",2,0.2329
+"G2Level=Low, Romantic=no",2,0.2304
+"Failures=0, G2Level=Low",2,0.2304
+"FamilySize=GT3, Romantic=yes",2,0.2304
+"G2Level=Medium, StudyTime=2-5 hrs",2,0.2304
+"Absences=Low, Activities=yes",2,0.2278
+"G1Level=Medium, Sex=M",2,0.2278
+"AgeGroup=<=16, G1Level=Medium",2,0.2278
+"Failures=0, FamilySize=LE3",2,0.2278
+"AgeGroup=<=16, G2Level=Medium",2,0.2253
+"School=GP, StudyTime=<2 hrs",2,0.2253
+"AgeGroup=17-18, G1Level=Medium",2,0.2228
+"Failures=0, G1Level=Low",2,0.2228
+"Activities=no, G2Level=Medium",2,0.2203
+"FamilySupport=no, Sex=M",2,0.2203
+"Absences=Low, Sex=M",2,0.2177
+"Internet=yes, StudyTime=<2 hrs",2,0.2177
+"G2Level=Medium, Sex=M",2,0.2177
+"Sex=M, StudyTime=2-5 hrs",2,0.2152
+"Activities=yes, AgeGroup=17-18",2,0.2152
+"Absences=Low, G1Level=Medium",2,0.2152
+"FamilySupport=yes, Result=Fail",2,0.2152
+"Absences=Medium, FamilySupport=yes",2,0.2152
+"G2Level=Low, Sex=F",2,0.2101
+"FamilySupport=yes, Romantic=yes",2,0.2076
+"Activities=no, Sex=M",2,0.2076
+"Address=R, HigherEducation=yes",2,0.2076
+"G1Level=Low, Sex=F",2,0.2076
+"AgeGroup=17-18, G2Level=Medium",2,0.2051
+"Activities=no, AgeGroup=<=16",2,0.2051
+"Absences=Medium, Activities=yes",2,0.2051
+"FamilySize=LE3, Result=Pass",2,0.2025
+"Result=Pass, Romantic=yes",2,0.2025
+"AgeGroup=17-18, Sex=M",2,0.2
+"Romantic=no, StudyTime=<2 hrs",2,0.2
+"Romantic=yes, Sex=F",2,0.2
+"Result=Fail, Romantic=no",2,0.1975
+"Activities=yes, FamilySupport=no",2,0.1975
+"Failures=0, Result=Fail",2,0.1975
+"Address=R, SchoolSupport=no",2,0.1975
+"Address=U, StudyTime=<2 hrs",2,0.1975
+"Sex=M, StudyTime=<2 hrs",2,0.1975
+"G2Level=Low, StudyTime=2-5 hrs",2,0.1949
+"Absences=Low, G2Level=Medium",2,0.1949
+"G1Level=Low, StudyTime=2-5 hrs",2,0.1949
+"AgeGroup=17-18, FamilySupport=no",2,0.1924
+"Activities=no, G2Level=Low",2,0.1924
+"Absences=Low, AgeGroup=17-18",2,0.1899
+"Result=Fail, Sex=F",2,0.1899
+"Absences=Medium, G2Level=Medium",2,0.1899
+"Activities=no, FamilySupport=no",2,0.1899
+"FamilySize=GT3, StudyTime=<2 hrs",2,0.1873
+"Failures=0, StudyTime=<2 hrs",2,0.1873
+"AgeGroup=17-18, G2Level=Low",2,0.1873
+"Absences=Medium, Sex=F",2,0.1873
+"FamilySupport=no, G1Level=Medium",2,0.1873
+"FamilySize=LE3, Romantic=no",2,0.1848
+"AgeGroup=17-18, Romantic=yes",2,0.1823
+"Absences=Medium, Sex=M",2,0.1823
+"Activities=no, G1Level=Low",2,0.1823
+"Romantic=yes, StudyTime=2-5 hrs",2,0.1823
+"HigherEducation=yes, Internet=yes, School=GP",3,0.7165
+"HigherEducation=yes, School=GP, SchoolSupport=no",3,0.7139
+"Failures=0, HigherEducation=yes, School=GP",3,0.6937
+"Address=U, HigherEducation=yes, School=GP",3,0.6911
+"HigherEducation=yes, Internet=yes, SchoolSupport=no",3,0.6886
+"Failures=0, HigherEducation=yes, SchoolSupport=no",3,0.6709
+"Failures=0, HigherEducation=yes, Internet=yes",3,0.6532
+"Address=U, HigherEducation=yes, Internet=yes",3,0.6506
+"Internet=yes, School=GP, SchoolSupport=no",3,0.6456
+"Address=U, Internet=yes, School=GP",3,0.643
+"Address=U, HigherEducation=yes, SchoolSupport=no",3,0.6405
+"Address=U, Failures=0, HigherEducation=yes",3,0.6203
+"Address=U, School=GP, SchoolSupport=no",3,0.6203
+"Failures=0, School=GP, SchoolSupport=no",3,0.6076
+"Failures=0, Internet=yes, School=GP",3,0.6076
+"FamilySize=GT3, HigherEducation=yes, School=GP",3,0.6025
+"Address=U, Internet=yes, SchoolSupport=no",3,0.5949
+"Failures=0, Internet=yes, SchoolSupport=no",3,0.5924
+"Address=U, Failures=0, School=GP",3,0.5899
+"HigherEducation=yes, Result=Pass, SchoolSupport=no",3,0.5848
+"HigherEducation=yes, Result=Pass, School=GP",3,0.5848
+"FamilySize=GT3, HigherEducation=yes, SchoolSupport=no",3,0.5823
+"Failures=0, HigherEducation=yes, Result=Pass",3,0.5823
+"HigherEducation=yes, Romantic=no, School=GP",3,0.5772
+"FamilySize=GT3, HigherEducation=yes, Internet=yes",3,0.562
+"Address=U, Failures=0, Internet=yes",3,0.562
+"HigherEducation=yes, Internet=yes, Result=Pass",3,0.557
+"FamilySupport=yes, HigherEducation=yes, School=GP",3,0.5494
+"Failures=0, FamilySize=GT3, HigherEducation=yes",3,0.5468
+"HigherEducation=yes, Romantic=no, SchoolSupport=no",3,0.5468
+"Address=U, Failures=0, SchoolSupport=no",3,0.5443
+"FamilySize=GT3, School=GP, SchoolSupport=no",3,0.5418
+"Failures=0, HigherEducation=yes, Romantic=no",3,0.5418
+"FamilySize=GT3, Internet=yes, School=GP",3,0.5418
+"Failures=0, Result=Pass, SchoolSupport=no",3,0.5367
+"Result=Pass, School=GP, SchoolSupport=no",3,0.5266
+"Failures=0, Result=Pass, School=GP",3,0.5266
+"HigherEducation=yes, Internet=yes, Romantic=no",3,0.5241
+"Address=U, HigherEducation=yes, Result=Pass",3,0.519
+"FamilySize=GT3, Internet=yes, SchoolSupport=no",3,0.5165
+"Failures=0, FamilySize=GT3, School=GP",3,0.5139
+"FamilySupport=yes, HigherEducation=yes, Internet=yes",3,0.5139
+"Internet=yes, Result=Pass, School=GP",3,0.5139
+"Address=U, FamilySize=GT3, School=GP",3,0.5139
+"Failures=0, Internet=yes, Result=Pass",3,0.5114
+"Internet=yes, Result=Pass, SchoolSupport=no",3,0.5114
+"Address=U, FamilySize=GT3, HigherEducation=yes",3,0.5089
+"Failures=0, Romantic=no, School=GP",3,0.5038
+"FamilySupport=yes, HigherEducation=yes, SchoolSupport=no",3,0.4987
+"Romantic=no, School=GP, SchoolSupport=no",3,0.4987
+"Address=U, HigherEducation=yes, Romantic=no",3,0.4962
+"Address=U, Result=Pass, School=GP",3,0.4962
+"Address=U, Romantic=no, School=GP",3,0.4937
+"Internet=yes, Romantic=no, School=GP",3,0.4937
+"FamilySupport=yes, Internet=yes, School=GP",3,0.4911
+"Failures=0, FamilySupport=yes, HigherEducation=yes",3,0.4886
+"Failures=0, FamilySize=GT3, SchoolSupport=no",3,0.4861
+"Address=U, Internet=yes, Result=Pass",3,0.4785
+"Address=U, Failures=0, Result=Pass",3,0.4759
+"Address=U, Result=Pass, SchoolSupport=no",3,0.4734
+"Address=U, FamilySize=GT3, Internet=yes",3,0.4734
+"FamilySupport=yes, School=GP, SchoolSupport=no",3,0.4709
+"Failures=0, FamilySize=GT3, Internet=yes",3,0.4684
+"Failures=0, Romantic=no, SchoolSupport=no",3,0.4684
+"Address=U, FamilySize=GT3, SchoolSupport=no",3,0.4658
+"Failures=0, FamilySupport=yes, School=GP",3,0.4658
+"Address=U, FamilySupport=yes, HigherEducation=yes",3,0.4658
+"AgeGroup=<=16, HigherEducation=yes, School=GP",3,0.4633
+"Address=U, FamilySupport=yes, School=GP",3,0.4608
+"Internet=yes, Romantic=no, SchoolSupport=no",3,0.4608
+"FamilySize=GT3, HigherEducation=yes, Romantic=no",3,0.4608
+"Activities=yes, HigherEducation=yes, School=GP",3,0.4582
+"FamilySize=GT3, HigherEducation=yes, Result=Pass",3,0.4557
+"HigherEducation=yes, Result=Pass, Romantic=no",3,0.4557
+"HigherEducation=yes, School=GP, Sex=F",3,0.4532
+"Failures=0, Internet=yes, Romantic=no",3,0.4506
+"Address=U, Internet=yes, Romantic=no",3,0.4481
+"FamilySupport=yes, Internet=yes, SchoolSupport=no",3,0.4481
+"Address=U, Failures=0, FamilySize=GT3",3,0.443
+"FamilySize=GT3, FamilySupport=yes, HigherEducation=yes",3,0.443
+"Address=U, Romantic=no, SchoolSupport=no",3,0.438
+"FamilySize=GT3, Romantic=no, School=GP",3,0.4354
+"Address=U, Failures=0, Romantic=no",3,0.4329
+"HigherEducation=yes, School=GP, StudyTime=2-5 hrs",3,0.4278
+"Result=Pass, Romantic=no, School=GP",3,0.4278
+"Failures=0, FamilySupport=yes, Internet=yes",3,0.4278
+"Activities=yes, HigherEducation=yes, Internet=yes",3,0.4253
+"FamilySize=GT3, Result=Pass, School=GP",3,0.4253
+"FamilySize=GT3, FamilySupport=yes, School=GP",3,0.4253
+"G2Level=Medium, HigherEducation=yes, Result=Pass",3,0.4253
+"HigherEducation=yes, SchoolSupport=no, Sex=F",3,0.4253
+"HigherEducation=yes, Internet=yes, Sex=F",3,0.4228
+"Activities=yes, HigherEducation=yes, SchoolSupport=no",3,0.4228
+"Failures=0, FamilySupport=yes, SchoolSupport=no",3,0.4228
+"Failures=0, Result=Pass, Romantic=no",3,0.4228
+"Address=U, FamilySupport=yes, Internet=yes",3,0.4203
+"Failures=0, HigherEducation=yes, Sex=F",3,0.4177
+"Failures=0, FamilySize=GT3, Result=Pass",3,0.4177
+"Result=Pass, Romantic=no, SchoolSupport=no",3,0.4127
+"FamilySize=GT3, Result=Pass, SchoolSupport=no",3,0.4127
+"Address=U, HigherEducation=yes, Sex=F",3,0.4101
+"Activities=yes, Failures=0, HigherEducation=yes",3,0.4076
+"AgeGroup=<=16, Internet=yes, School=GP",3,0.4076
+"Address=U, FamilySupport=yes, SchoolSupport=no",3,0.4076
+"HigherEducation=yes, SchoolSupport=no, StudyTime=2-5 hrs",3,0.4051
+"G1Level=Medium, HigherEducation=yes, School=GP",3,0.4051
+"Address=U, AgeGroup=<=16, School=GP",3,0.4051
+"G1Level=Medium, HigherEducation=yes, SchoolSupport=no",3,0.4025
+"FamilySize=GT3, Romantic=no, SchoolSupport=no",3,0.4025
+"Failures=0, G1Level=Medium, HigherEducation=yes",3,0.4025
+"AgeGroup=17-18, HigherEducation=yes, SchoolSupport=no",3,0.4025
+"Address=U, HigherEducation=yes, StudyTime=2-5 hrs",3,0.4025
+"AgeGroup=<=16, HigherEducation=yes, Internet=yes",3,0.4025
+"AgeGroup=<=16, Failures=0, School=GP",3,0.4025
+"Activities=yes, Internet=yes, School=GP",3,0.4025
+"Activities=no, HigherEducation=yes, SchoolSupport=no",3,0.4
+"Address=U, Failures=0, FamilySupport=yes",3,0.4
+"HigherEducation=yes, SchoolSupport=no, Sex=M",3,0.3975
+"G2Level=Medium, HigherEducation=yes, School=GP",3,0.3975
+"Address=U, AgeGroup=<=16, HigherEducation=yes",3,0.3975
+"AgeGroup=<=16, Failures=0, HigherEducation=yes",3,0.3975
+"FamilySupport=yes, HigherEducation=yes, Romantic=no",3,0.3975
+"FamilySize=GT3, FamilySupport=yes, Internet=yes",3,0.3975
+"G1Level=Medium, HigherEducation=yes, Result=Pass",3,0.3949
+"Activities=yes, School=GP, SchoolSupport=no",3,0.3949
+"FamilySize=GT3, Internet=yes, Result=Pass",3,0.3949
+"HigherEducation=yes, Internet=yes, StudyTime=2-5 hrs",3,0.3949
+"Failures=0, FamilySize=GT3, Romantic=no",3,0.3924
+"Failures=0, HigherEducation=yes, StudyTime=2-5 hrs",3,0.3899
+"Internet=yes, Result=Pass, Romantic=no",3,0.3899
+"HigherEducation=yes, School=GP, Sex=M",3,0.3873
+"G2Level=Medium, Result=Pass, School=GP",3,0.3873
+"FamilySupport=yes, HigherEducation=yes, Result=Pass",3,0.3873
+"G1Level=Medium, HigherEducation=yes, Internet=yes",3,0.3873
+"Internet=yes, School=GP, Sex=F",3,0.3873
+"G2Level=Medium, Result=Pass, SchoolSupport=no",3,0.3873
+"FamilySize=GT3, Internet=yes, Romantic=no",3,0.3848
+"FamilySize=GT3, FamilySupport=yes, SchoolSupport=no",3,0.3848
+"FamilySupport=yes, Romantic=no, School=GP",3,0.3848
+"Address=U, School=GP, Sex=F",3,0.3848
+"FamilySize=GT3, HigherEducation=yes, Sex=F",3,0.3848
+"G2Level=Medium, HigherEducation=yes, SchoolSupport=no",3,0.3848
+"School=GP, SchoolSupport=no, Sex=M",3,0.3823
+"Activities=no, HigherEducation=yes, School=GP",3,0.3823
+"Address=U, School=GP, StudyTime=2-5 hrs",3,0.3823
+"Failures=0, G2Level=Medium, HigherEducation=yes",3,0.3823
+"G2Level=Medium, HigherEducation=yes, Internet=yes",3,0.3797
+"Activities=yes, Failures=0, School=GP",3,0.3797
+"Activities=yes, Address=U, HigherEducation=yes",3,0.3797
+"Absences=Low, HigherEducation=yes, School=GP",3,0.3797
+"Absences=Low, HigherEducation=yes, SchoolSupport=no",3,0.3772
+"Failures=0, G2Level=Medium, Result=Pass",3,0.3772
+"Internet=yes, School=GP, StudyTime=2-5 hrs",3,0.3747
+"Failures=0, School=GP, Sex=F",3,0.3747
+"School=GP, SchoolSupport=no, Sex=F",3,0.3722
+"Absences=Low, Failures=0, HigherEducation=yes",3,0.3722
+"Address=U, FamilySize=GT3, Romantic=no",3,0.3696
+"G2Level=Medium, Internet=yes, Result=Pass",3,0.3696
+"Address=U, FamilySize=GT3, Result=Pass",3,0.3696
+"Activities=yes, Address=U, School=GP",3,0.3696
+"HigherEducation=yes, Internet=yes, Sex=M",3,0.3696
+"Activities=yes, Internet=yes, SchoolSupport=no",3,0.3696
+"School=GP, SchoolSupport=no, StudyTime=2-5 hrs",3,0.3696
+"G1Level=Medium, Result=Pass, SchoolSupport=no",3,0.3696
+"Failures=0, G1Level=Medium, SchoolSupport=no",3,0.3671
+"Activities=no, HigherEducation=yes, Internet=yes",3,0.3671
+"Failures=0, FamilySize=GT3, FamilySupport=yes",3,0.3671
+"Internet=yes, SchoolSupport=no, Sex=M",3,0.3671
+"FamilySupport=yes, Result=Pass, School=GP",3,0.3671
+"AgeGroup=<=16, School=GP, SchoolSupport=no",3,0.3671
+"Address=U, G1Level=Medium, HigherEducation=yes",3,0.3646
+"Activities=no, Failures=0, HigherEducation=yes",3,0.3646
+"G1Level=Medium, Internet=yes, School=GP",3,0.3646
+"Failures=0, G1Level=Medium, School=GP",3,0.3646
+"Internet=yes, School=GP, Sex=M",3,0.3646
+"Address=U, Result=Pass, Romantic=no",3,0.362
+"AgeGroup=17-18, Failures=0, HigherEducation=yes",3,0.362
+"Failures=0, G1Level=Medium, Result=Pass",3,0.362
+"Activities=no, Address=U, HigherEducation=yes",3,0.362
+"G1Level=Medium, School=GP, SchoolSupport=no",3,0.362
+"Activities=yes, Failures=0, Internet=yes",3,0.362
+"AgeGroup=<=16, HigherEducation=yes, SchoolSupport=no",3,0.3595
+"Address=U, FamilySize=GT3, FamilySupport=yes",3,0.3595
+"Failures=0, FamilySupport=yes, Result=Pass",3,0.3595
+"Internet=yes, SchoolSupport=no, Sex=F",3,0.3595
+"Activities=no, School=GP, SchoolSupport=no",3,0.3595
+"AgeGroup=17-18, Internet=yes, SchoolSupport=no",3,0.3595
+"Failures=0, G1Level=Medium, Internet=yes",3,0.357
+"Activities=yes, Failures=0, SchoolSupport=no",3,0.357
+"Activities=no, Internet=yes, SchoolSupport=no",3,0.357
+"Failures=0, School=GP, StudyTime=2-5 hrs",3,0.357
+"Address=U, AgeGroup=<=16, Internet=yes",3,0.357
+"Failures=0, SchoolSupport=no, Sex=F",3,0.357
+"G1Level=Medium, Result=Pass, School=GP",3,0.357
+"Activities=yes, FamilySize=GT3, HigherEducation=yes",3,0.357
+"Address=U, G2Level=Medium, HigherEducation=yes",3,0.3544
+"G1Level=Medium, Internet=yes, SchoolSupport=no",3,0.3544
+"Failures=0, HigherEducation=yes, Sex=M",3,0.3544
+"Absences=Low, HigherEducation=yes, Internet=yes",3,0.3544
+"AgeGroup=17-18, Failures=0, SchoolSupport=no",3,0.3544
+"Activities=no, Address=U, School=GP",3,0.3544
+"G1Level=Medium, G2Level=Medium, Result=Pass",3,0.3544
+"G1Level=Medium, Internet=yes, Result=Pass",3,0.3519
+"G2Level=Medium, Internet=yes, School=GP",3,0.3519
+"AgeGroup=<=16, Failures=0, Internet=yes",3,0.3519
+"FamilySize=GT3, School=GP, Sex=F",3,0.3519
+"Address=U, Internet=yes, StudyTime=2-5 hrs",3,0.3519
+"Address=U, AgeGroup=<=16, Failures=0",3,0.3519
+"AgeGroup=<=16, Romantic=no, School=GP",3,0.3519
+"FamilySupport=yes, HigherEducation=yes, Sex=F",3,0.3519
+"FamilySupport=yes, Result=Pass, SchoolSupport=no",3,0.3494
+"Absences=Low, School=GP, SchoolSupport=no",3,0.3494
+"Address=U, G1Level=Medium, School=GP",3,0.3494
+"AgeGroup=<=16, Result=Pass, School=GP",3,0.3494
+"G1Level=Medium, G2Level=Medium, HigherEducation=yes",3,0.3494
+"Activities=no, Internet=yes, School=GP",3,0.3494
+"Address=U, Internet=yes, Sex=F",3,0.3494
+"Failures=0, Internet=yes, Sex=F",3,0.3468
+"Absences=Low, Address=U, HigherEducation=yes",3,0.3468
+"AgeGroup=<=16, HigherEducation=yes, Romantic=no",3,0.3468
+"G2Level=Medium, School=GP, SchoolSupport=no",3,0.3468
+"Internet=yes, SchoolSupport=no, StudyTime=2-5 hrs",3,0.3468
+"AgeGroup=<=16, FamilySize=GT3, School=GP",3,0.3468
+"Address=U, SchoolSupport=no, StudyTime=2-5 hrs",3,0.3468
+"Failures=0, G2Level=Medium, School=GP",3,0.3468
+"AgeGroup=17-18, HigherEducation=yes, Internet=yes",3,0.3468
+"FamilySupport=yes, Internet=yes, Result=Pass",3,0.3443
+"Failures=0, G2Level=Medium, SchoolSupport=no",3,0.3443
+"Address=U, G2Level=Medium, Result=Pass",3,0.3443
+"AgeGroup=<=16, HigherEducation=yes, Result=Pass",3,0.3443
+"Failures=0, SchoolSupport=no, StudyTime=2-5 hrs",3,0.3443
+"Activities=no, Address=U, SchoolSupport=no",3,0.3443
+"Absences=Low, Internet=yes, School=GP",3,0.3418
+"G2Level=Medium, Internet=yes, SchoolSupport=no",3,0.3418
+"Activities=yes, Address=U, Internet=yes",3,0.3418
+"Address=U, Failures=0, Sex=F",3,0.3418
+"Address=U, SchoolSupport=no, Sex=F",3,0.3418
+"AgeGroup=17-18, School=GP, SchoolSupport=no",3,0.3392
+"Failures=0, G2Level=Medium, Internet=yes",3,0.3392
+"AgeGroup=<=16, FamilySize=GT3, HigherEducation=yes",3,0.3392
+"Address=U, School=GP, Sex=M",3,0.3392
+"Activities=no, Address=U, Internet=yes",3,0.3392
+"FamilySupport=yes, Internet=yes, Romantic=no",3,0.3392
+"Address=U, G2Level=Medium, School=GP",3,0.3392
+"Address=U, G1Level=Medium, Internet=yes",3,0.3367
+"Absences=Low, Failures=0, School=GP",3,0.3367
+"AgeGroup=17-18, HigherEducation=yes, School=GP",3,0.3367
+"Absences=Low, Address=U, School=GP",3,0.3367
+"Failures=0, FamilySupport=yes, Romantic=no",3,0.3367
+"Address=U, Failures=0, StudyTime=2-5 hrs",3,0.3342
+"Failures=0, School=GP, Sex=M",3,0.3342
+"FamilySupport=yes, Romantic=no, SchoolSupport=no",3,0.3342
+"HigherEducation=yes, Result=Pass, Sex=F",3,0.3342
+"Absences=Low, Failures=0, SchoolSupport=no",3,0.3342
+"Activities=yes, FamilySize=GT3, School=GP",3,0.3342
+"FamilySize=GT3, Result=Pass, Romantic=no",3,0.3342
+"Activities=yes, HigherEducation=yes, Result=Pass",3,0.3342
+"Failures=0, SchoolSupport=no, Sex=M",3,0.3316
+"Address=U, HigherEducation=yes, Sex=M",3,0.3316
+"Address=U, SchoolSupport=no, Sex=M",3,0.3316
+"FamilySupport=yes, School=GP, Sex=F",3,0.3316
+"Address=U, G1Level=Medium, SchoolSupport=no",3,0.3316
+"Address=U, Failures=0, G1Level=Medium",3,0.3316
+"Address=U, Internet=yes, Sex=M",3,0.3316
+"Activities=no, Failures=0, SchoolSupport=no",3,0.3316
+"Address=U, G1Level=Medium, Result=Pass",3,0.3291
+"Address=U, G2Level=Medium, Internet=yes",3,0.3291
+"FamilySize=GT3, SchoolSupport=no, Sex=F",3,0.3291
+"Activities=yes, Address=U, SchoolSupport=no",3,0.3291
+"Failures=0, Internet=yes, StudyTime=2-5 hrs",3,0.3291
+"Absences=Low, Address=U, SchoolSupport=no",3,0.3291
+"Activities=no, Failures=0, School=GP",3,0.3291
+"Address=U, AgeGroup=<=16, SchoolSupport=no",3,0.3266
+"G1Level=Medium, G2Level=Medium, SchoolSupport=no",3,0.3266
+"Activities=yes, HigherEducation=yes, Romantic=no",3,0.3266
+"Absences=Low, Address=U, Internet=yes",3,0.3241
+"FamilySize=GT3, Internet=yes, Sex=F",3,0.3241
+"Failures=0, Internet=yes, Sex=M",3,0.3241
+"FamilySize=GT3, G1Level=Medium, HigherEducation=yes",3,0.3241
+"Absences=Low, Internet=yes, SchoolSupport=no",3,0.3241
+"FamilySupport=no, HigherEducation=yes, SchoolSupport=no",3,0.3241
+"HigherEducation=yes, Romantic=no, Sex=F",3,0.3241
+"Address=U, FamilySupport=yes, Romantic=no",3,0.3215
+"Absences=Low, FamilySize=GT3, HigherEducation=yes",3,0.3215
+"Activities=no, HigherEducation=yes, Result=Pass",3,0.319
+"HigherEducation=yes, Romantic=no, Sex=M",3,0.319
+"AgeGroup=<=16, Internet=yes, SchoolSupport=no",3,0.319
+"Absences=Low, Failures=0, Internet=yes",3,0.319
+"AgeGroup=<=16, Failures=0, SchoolSupport=no",3,0.319
+"Activities=yes, Result=Pass, School=GP",3,0.319
+"HigherEducation=yes, Result=Pass, Sex=M",3,0.319
+"Activities=no, FamilySize=GT3, HigherEducation=yes",3,0.319
+"Activities=no, HigherEducation=yes, Romantic=no",3,0.3165
+"Address=U, Failures=0, G2Level=Medium",3,0.3165
+"Activities=yes, Address=U, Failures=0",3,0.3165
+"G1Level=Medium, G2Level=Medium, School=GP",3,0.3165
+"FamilySupport=yes, HigherEducation=yes, StudyTime=2-5 hrs",3,0.3165
+"AgeGroup=<=16, Failures=0, Result=Pass",3,0.3165
+"HigherEducation=yes, Result=Pass, StudyTime=2-5 hrs",3,0.3165
+"FamilySize=GT3, HigherEducation=yes, StudyTime=2-5 hrs",3,0.3165
+"Failures=0, G1Level=Medium, G2Level=Medium",3,0.3139
+"Activities=no, Address=U, Failures=0",3,0.3139
+"Result=Pass, SchoolSupport=no, Sex=M",3,0.3139
+"Absences=Medium, HigherEducation=yes, School=GP",3,0.3139
+"AgeGroup=<=16, FamilySupport=yes, School=GP",3,0.3139
+"Failures=0, FamilySize=GT3, Sex=F",3,0.3139
+"Address=U, G2Level=Medium, SchoolSupport=no",3,0.3139
+"Absences=Low, Address=U, Failures=0",3,0.3139
+"Romantic=no, SchoolSupport=no, Sex=M",3,0.3114
+"AgeGroup=<=16, Failures=0, Romantic=no",3,0.3114
+"Activities=yes, Romantic=no, School=GP",3,0.3114
+"Address=U, AgeGroup=<=16, Romantic=no",3,0.3114
+"Activities=yes, FamilySize=GT3, SchoolSupport=no",3,0.3114
+"FamilySize=GT3, G2Level=Medium, HigherEducation=yes",3,0.3114
+"FamilySize=GT3, G2Level=Medium, Result=Pass",3,0.3114
+"G1Level=Medium, G2Level=Medium, Internet=yes",3,0.3114
+"Absences=Low, FamilySize=GT3, School=GP",3,0.3089
+"Activities=no, Failures=0, Internet=yes",3,0.3089
+"Address=U, FamilySupport=yes, Result=Pass",3,0.3089
+"HigherEducation=yes, Romantic=no, StudyTime=2-5 hrs",3,0.3089
+"Absences=Medium, HigherEducation=yes, SchoolSupport=no",3,0.3089
+"Address=U, AgeGroup=<=16, Result=Pass",3,0.3089
+"AgeGroup=<=16, FamilySupport=yes, HigherEducation=yes",3,0.3089
+"Address=U, FamilySize=GT3, Sex=F",3,0.3063
+"AgeGroup=17-18, Failures=0, Internet=yes",3,0.3063
+"Absences=Medium, Failures=0, HigherEducation=yes",3,0.3063
+"AgeGroup=<=16, Internet=yes, Result=Pass",3,0.3063
+"AgeGroup=17-18, Internet=yes, School=GP",3,0.3063
+"Activities=no, FamilySize=GT3, SchoolSupport=no",3,0.3038
+"Activities=yes, Failures=0, Result=Pass",3,0.3038
+"Activities=yes, FamilySize=GT3, Internet=yes",3,0.3038
+"Result=Pass, School=GP, Sex=M",3,0.3038
+"Activities=yes, FamilySupport=yes, HigherEducation=yes",3,0.3038
+"Absences=Low, HigherEducation=yes, Romantic=no",3,0.3038
+"Activities=no, FamilySize=GT3, School=GP",3,0.3038
+"Romantic=no, School=GP, Sex=M",3,0.3013
+"Address=U, AgeGroup=17-18, HigherEducation=yes",3,0.3013
+"AgeGroup=<=16, Failures=0, FamilySize=GT3",3,0.3013
+"AgeGroup=<=16, FamilySize=GT3, Internet=yes",3,0.3013
+"Activities=yes, Result=Pass, SchoolSupport=no",3,0.3013
+"Activities=no, Result=Pass, SchoolSupport=no",3,0.2987
+"AgeGroup=<=16, Internet=yes, Romantic=no",3,0.2987
+"Absences=Low, HigherEducation=yes, Result=Pass",3,0.2987
+"Failures=0, FamilySize=GT3, G1Level=Medium",3,0.2987
+"FamilySupport=yes, Internet=yes, Sex=F",3,0.2987
+"Failures=0, Result=Pass, Sex=M",3,0.2987
+"FamilySize=GT3, G1Level=Medium, School=GP",3,0.2987
+"Failures=0, FamilySupport=yes, Sex=F",3,0.2987
+"FamilySupport=yes, School=GP, StudyTime=2-5 hrs",3,0.2962
+"G2Level=Medium, HigherEducation=yes, Romantic=no",3,0.2962
+"Address=U, AgeGroup=17-18, SchoolSupport=no",3,0.2962
+"Activities=yes, Internet=yes, Result=Pass",3,0.2962
+"FamilySize=GT3, FamilySupport=yes, Romantic=no",3,0.2962
+"Absences=Medium, HigherEducation=yes, Internet=yes",3,0.2962
+"Activities=yes, FamilySupport=yes, School=GP",3,0.2962
+"FamilySize=GT3, G1Level=Medium, SchoolSupport=no",3,0.2962
+"Romantic=no, School=GP, Sex=F",3,0.2962
+"FamilySize=GT3, School=GP, StudyTime=2-5 hrs",3,0.2962
+"Absences=Low, FamilySize=GT3, SchoolSupport=no",3,0.2937
+"AgeGroup=17-18, Failures=0, School=GP",3,0.2937
+"FamilySize=GT3, FamilySupport=yes, Result=Pass",3,0.2937
+"FamilySupport=yes, SchoolSupport=no, Sex=F",3,0.2937
+"Activities=yes, Failures=0, FamilySize=GT3",3,0.2937
+"Failures=0, Result=Pass, Sex=F",3,0.2937
+"Result=Pass, School=GP, Sex=F",3,0.2937
+"G2Level=Medium, Result=Pass, Romantic=no",3,0.2937
+"AgeGroup=<=16, Result=Pass, SchoolSupport=no",3,0.2911
+"FamilySupport=no, HigherEducation=yes, School=GP",3,0.2911
+"AgeGroup=17-18, FamilySize=GT3, SchoolSupport=no",3,0.2911
+"AgeGroup=17-18, FamilySize=GT3, HigherEducation=yes",3,0.2911
+"Internet=yes, Result=Pass, Sex=M",3,0.2911
+"FamilySize=GT3, HigherEducation=yes, Sex=M",3,0.2911
+"Failures=0, Result=Pass, StudyTime=2-5 hrs",3,0.2886
+"Activities=no, Failures=0, Result=Pass",3,0.2886
+"Absences=Low, Failures=0, Result=Pass",3,0.2886
+"Address=U, Failures=0, Sex=M",3,0.2886
+"G1Level=Medium, HigherEducation=yes, Romantic=no",3,0.2886
+"FamilySize=GT3, SchoolSupport=no, StudyTime=2-5 hrs",3,0.2886
+"Activities=no, FamilySize=GT3, Internet=yes",3,0.2886
+"Result=Pass, SchoolSupport=no, StudyTime=2-5 hrs",3,0.2886
+"Activities=no, FamilySupport=yes, HigherEducation=yes",3,0.2886
+"Address=U, G1Level=Medium, G2Level=Medium",3,0.2886
+"Address=U, AgeGroup=<=16, FamilySize=GT3",3,0.2886
+"Address=U, FamilySupport=yes, Sex=F",3,0.2861
+"FamilySize=GT3, G1Level=Medium, Result=Pass",3,0.2861
+"G2Level=Low, HigherEducation=yes, School=GP",3,0.2861
+"FamilySize=GT3, SchoolSupport=no, Sex=M",3,0.2861
+"Activities=no, Romantic=no, School=GP",3,0.2861
+"Result=Pass, SchoolSupport=no, Sex=F",3,0.2861
+"FamilySize=GT3, School=GP, Sex=M",3,0.2861
+"Activities=no, Romantic=no, SchoolSupport=no",3,0.2861
+"G1Level=Low, HigherEducation=yes, School=GP",3,0.2861
+"Absences=Low, Romantic=no, School=GP",3,0.2861
+"Romantic=no, School=GP, StudyTime=2-5 hrs",3,0.2861
+"FamilySize=GT3, G2Level=Medium, School=GP",3,0.2861
+"FamilySupport=no, School=GP, SchoolSupport=no",3,0.2835
+"Failures=0, FamilySupport=no, HigherEducation=yes",3,0.2835
+"Address=U, AgeGroup=17-18, Internet=yes",3,0.2835
+"Result=Pass, School=GP, StudyTime=2-5 hrs",3,0.2835
+"Internet=yes, Romantic=no, Sex=M",3,0.2835
+"G2Level=Medium, Romantic=no, School=GP",3,0.281
+"FamilySize=GT3, G1Level=Medium, Internet=yes",3,0.281
+"FamilySize=GT3, FamilySupport=yes, Sex=F",3,0.281
+"FamilySize=GT3, G2Level=Medium, SchoolSupport=no",3,0.281
+"Activities=yes, Romantic=no, SchoolSupport=no",3,0.281
+"Absences=Low, Failures=0, FamilySize=GT3",3,0.281
+"FamilySupport=yes, G1Level=Medium, HigherEducation=yes",3,0.281
+"Failures=0, Romantic=no, Sex=F",3,0.281
+"Internet=yes, Result=Pass, Sex=F",3,0.2785
+"Absences=Low, FamilySize=GT3, Internet=yes",3,0.2785
+"Absences=Medium, Failures=0, School=GP",3,0.2785
+"AgeGroup=17-18, Result=Pass, SchoolSupport=no",3,0.2785
+"FamilySupport=no, Internet=yes, SchoolSupport=no",3,0.2785
+"Activities=yes, FamilySupport=yes, Internet=yes",3,0.2785
+"Activities=yes, Internet=yes, Romantic=no",3,0.2785
+"FamilySupport=no, HigherEducation=yes, Internet=yes",3,0.2785
+"AgeGroup=17-18, HigherEducation=yes, Result=Pass",3,0.2785
+"FamilySupport=yes, G2Level=Medium, HigherEducation=yes",3,0.2785
+"Activities=no, Result=Pass, School=GP",3,0.2785
+"Address=U, AgeGroup=17-18, School=GP",3,0.2759
+"G2Level=Low, HigherEducation=yes, Result=Fail",3,0.2759
+"Address=U, FamilySupport=no, HigherEducation=yes",3,0.2759
+"FamilySize=GT3, G2Level=Medium, Internet=yes",3,0.2759
+"FamilySupport=yes, Result=Pass, Romantic=no",3,0.2759
+"Activities=no, Address=U, FamilySize=GT3",3,0.2759
+"HigherEducation=yes, Sex=F, StudyTime=2-5 hrs",3,0.2759
+"Failures=0, FamilySize=GT3, G2Level=Medium",3,0.2759
+"HigherEducation=yes, Romantic=yes, SchoolSupport=no",3,0.2759
+"Address=U, Result=Pass, StudyTime=2-5 hrs",3,0.2734
+"AgeGroup=<=16, FamilySupport=yes, Internet=yes",3,0.2734
+"Absences=Low, Romantic=no, SchoolSupport=no",3,0.2734
+"Activities=no, Internet=yes, Result=Pass",3,0.2734
+"Activities=no, HigherEducation=yes, Sex=F",3,0.2734
+"FamilySupport=yes, SchoolSupport=no, StudyTime=2-5 hrs",3,0.2734
+"AgeGroup=<=16, Failures=0, FamilySupport=yes",3,0.2734
+"Activities=yes, Failures=0, Romantic=no",3,0.2734
+"Address=U, FamilySupport=yes, StudyTime=2-5 hrs",3,0.2734
+"Absences=Low, FamilySupport=yes, HigherEducation=yes",3,0.2734
+"Absences=Medium, Internet=yes, SchoolSupport=no",3,0.2734
+"G2Level=Low, HigherEducation=yes, SchoolSupport=no",3,0.2734
+"Activities=no, Failures=0, Romantic=no",3,0.2734
+"Failures=0, FamilySupport=yes, StudyTime=2-5 hrs",3,0.2709
+"Activities=no, FamilySupport=yes, School=GP",3,0.2709
+"Absences=Low, Result=Pass, SchoolSupport=no",3,0.2709
+"Absences=Low, Failures=0, Romantic=no",3,0.2709
+"Internet=yes, Result=Pass, StudyTime=2-5 hrs",3,0.2709
+"FamilySupport=yes, G2Level=Medium, Result=Pass",3,0.2709
+"Failures=0, G2Level=Medium, Romantic=no",3,0.2709
+"Absences=Medium, School=GP, SchoolSupport=no",3,0.2684
+"HigherEducation=yes, Internet=yes, Romantic=yes",3,0.2684
+"Activities=no, Failures=0, FamilySize=GT3",3,0.2684
+"AgeGroup=17-18, Failures=0, Result=Pass",3,0.2684
+"AgeGroup=<=16, FamilySize=GT3, SchoolSupport=no",3,0.2684
+"AgeGroup=<=16, Result=Pass, Romantic=no",3,0.2684
+"Absences=Medium, HigherEducation=yes, Result=Pass",3,0.2684
+"FamilySize=GT3, Internet=yes, StudyTime=2-5 hrs",3,0.2684
+"Address=U, Romantic=no, Sex=M",3,0.2684
+"Address=U, Romantic=no, StudyTime=2-5 hrs",3,0.2684
+"FamilySize=GT3, Internet=yes, Sex=M",3,0.2684
+"FamilySupport=yes, Internet=yes, StudyTime=2-5 hrs",3,0.2684
+"Absences=Medium, Failures=0, SchoolSupport=no",3,0.2684
+"Activities=no, Address=U, Result=Pass",3,0.2684
+"Absences=Low, Address=U, FamilySize=GT3",3,0.2684
+"G1Level=Medium, Romantic=no, School=GP",3,0.2684
+"Address=U, Result=Pass, Sex=M",3,0.2684
+"Absences=Low, FamilySupport=yes, School=GP",3,0.2684
+"Failures=0, FamilySupport=no, SchoolSupport=no",3,0.2658
+"Failures=0, FamilySize=GT3, StudyTime=2-5 hrs",3,0.2658
+"Failures=0, Romantic=no, StudyTime=2-5 hrs",3,0.2658
+"G2Level=Low, Result=Fail, School=GP",3,0.2658
+"Internet=yes, Romantic=yes, SchoolSupport=no",3,0.2658
+"Activities=yes, AgeGroup=<=16, School=GP",3,0.2658
+"Failures=0, Romantic=no, Sex=M",3,0.2658
+"AgeGroup=<=16, Romantic=no, SchoolSupport=no",3,0.2658
+"Address=U, FamilySupport=no, SchoolSupport=no",3,0.2658
+"G1Level=Low, G2Level=Low, HigherEducation=yes",3,0.2658
+"Absences=Medium, Internet=yes, School=GP",3,0.2658
+"FamilySupport=no, HigherEducation=yes, Result=Pass",3,0.2658
+"Absences=Low, Result=Pass, School=GP",3,0.2658
+"Absences=Medium, Address=U, HigherEducation=yes",3,0.2658
+"Romantic=no, SchoolSupport=no, StudyTime=2-5 hrs",3,0.2658
+"Activities=no, Address=U, Romantic=no",3,0.2658
+"Address=U, AgeGroup=17-18, Failures=0",3,0.2633
+"Absences=Low, Internet=yes, Romantic=no",3,0.2633
+"Activities=yes, AgeGroup=<=16, HigherEducation=yes",3,0.2633
+"AgeGroup=17-18, Romantic=no, SchoolSupport=no",3,0.2633
+"Failures=0, G1Level=Medium, Romantic=no",3,0.2633
+"Failures=0, FamilySupport=yes, G1Level=Medium",3,0.2633
+"Activities=yes, Address=U, Result=Pass",3,0.2633
+"Activities=yes, Address=U, FamilySize=GT3",3,0.2633
+"Address=U, FamilySupport=no, School=GP",3,0.2633
+"HigherEducation=yes, Romantic=yes, School=GP",3,0.2633
+"G1Level=Medium, Result=Pass, Romantic=no",3,0.2633
+"Address=U, Result=Pass, Sex=F",3,0.2633
+"Address=U, FamilySize=GT3, StudyTime=2-5 hrs",3,0.2633
+"Address=U, AgeGroup=<=16, FamilySupport=yes",3,0.2608
+"Activities=no, Internet=yes, Romantic=no",3,0.2608
+"FamilySupport=no, Internet=yes, School=GP",3,0.2608
+"G1Level=Low, HigherEducation=yes, Internet=yes",3,0.2608
+"Absences=Medium, Failures=0, Internet=yes",3,0.2608
+"FamilySupport=yes, G1Level=Medium, School=GP",3,0.2608
+"G1Level=Medium, Romantic=no, SchoolSupport=no",3,0.2608
+"Activities=no, FamilySupport=yes, SchoolSupport=no",3,0.2608
+"AgeGroup=<=16, FamilySize=GT3, Result=Pass",3,0.2608
+"Address=U, FamilySupport=no, Internet=yes",3,0.2608
+"FamilySupport=yes, G1Level=Medium, Internet=yes",3,0.2608
+"G1Level=Low, HigherEducation=yes, SchoolSupport=no",3,0.2582
+"Absences=Medium, FamilySize=GT3, HigherEducation=yes",3,0.2582
+"AgeGroup=17-18, HigherEducation=yes, Romantic=no",3,0.2582
+"G2Level=Low, Internet=yes, School=GP",3,0.2582
+"Internet=yes, Romantic=yes, School=GP",3,0.2582
+"FamilySupport=yes, G2Level=Medium, School=GP",3,0.2582
+"G2Level=Low, HigherEducation=yes, Internet=yes",3,0.2582
+"G1Level=Low, Internet=yes, School=GP",3,0.2582
+"G2Level=Medium, Romantic=no, SchoolSupport=no",3,0.2582
+"G2Level=Low, Result=Fail, SchoolSupport=no",3,0.2582
+"Romantic=no, SchoolSupport=no, Sex=F",3,0.2557
+"Activities=yes, HigherEducation=yes, StudyTime=2-5 hrs",3,0.2557
+"AgeGroup=17-18, FamilySupport=yes, HigherEducation=yes",3,0.2557
+"Absences=Low, Internet=yes, Result=Pass",3,0.2557
+"Romantic=yes, School=GP, SchoolSupport=no",3,0.2557
+"Internet=yes, Romantic=no, StudyTime=2-5 hrs",3,0.2557
+"Internet=yes, Romantic=no, Sex=F",3,0.2557
+"G2Level=Medium, Internet=yes, Romantic=no",3,0.2557
+"G2Level=Low, School=GP, SchoolSupport=no",3,0.2557
+"G1Level=Low, G2Level=Low, School=GP",3,0.2557
+"HigherEducation=yes, Result=Fail, School=GP",3,0.2557
+"Activities=yes, FamilySupport=yes, SchoolSupport=no",3,0.2557
+"Address=U, FamilySize=GT3, G1Level=Medium",3,0.2557
+"Absences=Low, AgeGroup=<=16, School=GP",3,0.2532
+"AgeGroup=<=16, FamilySize=GT3, Romantic=no",3,0.2532
+"G1Level=Low, G2Level=Low, Result=Fail",3,0.2532
+"FamilySize=GT3, G2Level=Low, HigherEducation=yes",3,0.2532
+"Activities=yes, Failures=0, FamilySupport=yes",3,0.2532
+"Absences=Medium, HigherEducation=yes, Romantic=no",3,0.2532
+"FamilySupport=yes, G2Level=Medium, Internet=yes",3,0.2532
+"Absences=Medium, Address=U, School=GP",3,0.2532
+"Failures=0, FamilySupport=yes, G2Level=Medium",3,0.2532
+"Address=U, G1Level=Low, School=GP",3,0.2532
+"Absences=Low, FamilySupport=yes, Internet=yes",3,0.2532
+"Absences=Low, Address=U, Result=Pass",3,0.2532
+"School=GP, Sex=F, StudyTime=2-5 hrs",3,0.2506
+"Activities=yes, HigherEducation=yes, Sex=M",3,0.2506
+"AgeGroup=17-18, Failures=0, FamilySize=GT3",3,0.2506
+"FamilySupport=no, Result=Pass, SchoolSupport=no",3,0.2506
+"Activities=yes, Address=U, Romantic=no",3,0.2506
+"Address=U, FamilySize=GT3, G2Level=Medium",3,0.2506
+"FamilySize=GT3, Romantic=no, Sex=F",3,0.2506
+"AgeGroup=17-18, HigherEducation=yes, Sex=F",3,0.2506
+"Absences=Low, AgeGroup=<=16, HigherEducation=yes",3,0.2506
+"Activities=no, Address=U, FamilySupport=yes",3,0.2506
+"Activities=yes, School=GP, Sex=M",3,0.2506
+"Absences=Low, Address=U, Romantic=no",3,0.2506
+"Address=U, G2Level=Low, School=GP",3,0.2506
+"AgeGroup=17-18, FamilySize=GT3, Internet=yes",3,0.2506
+"Activities=no, FamilySupport=yes, Internet=yes",3,0.2506
+"G1Level=Low, G2Level=Low, SchoolSupport=no",3,0.2506
+"AgeGroup=17-18, FamilySize=GT3, School=GP",3,0.2506
+"FamilySupport=yes, G1Level=Medium, SchoolSupport=no",3,0.2506
+"FamilySize=GT3, G1Level=Medium, G2Level=Medium",3,0.2481
+"Activities=yes, FamilySize=GT3, Result=Pass",3,0.2481
+"Address=U, Romantic=no, Sex=F",3,0.2481
+"Failures=0, FamilySize=GT3, Sex=M",3,0.2481
+"Activities=yes, FamilySize=GT3, Romantic=no",3,0.2481
+"Result=Pass, Romantic=no, Sex=M",3,0.2456
+"Activities=no, School=GP, Sex=F",3,0.2456
+"Address=U, HigherEducation=yes, Romantic=yes",3,0.2456
+"G1Level=Low, School=GP, SchoolSupport=no",3,0.2456
+"FamilySupport=no, HigherEducation=yes, Romantic=no",3,0.2456
+"FamilySupport=yes, G2Level=Medium, SchoolSupport=no",3,0.2456
+"Activities=no, Failures=0, FamilySupport=yes",3,0.2456
+"FamilySupport=yes, G1Level=Medium, Result=Pass",3,0.2456
+"Address=U, Sex=F, StudyTime=2-5 hrs",3,0.2456
+"AgeGroup=17-18, FamilySupport=yes, SchoolSupport=no",3,0.2456
+"FamilySize=GT3, G2Level=Low, School=GP",3,0.243
+"AgeGroup=<=16, FamilySize=GT3, FamilySupport=yes",3,0.243
+"Address=U, G2Level=Low, HigherEducation=yes",3,0.243
+"Activities=no, SchoolSupport=no, Sex=F",3,0.243
+"Activities=yes, HigherEducation=yes, Sex=F",3,0.243
+"G1Level=Medium, Internet=yes, Romantic=no",3,0.243
+"Address=U, G1Level=Low, HigherEducation=yes",3,0.243
+"Failures=0, FamilySupport=no, School=GP",3,0.243
+"Absences=Medium, Result=Pass, School=GP",3,0.243
+"G2Level=Low, Internet=yes, Result=Fail",3,0.243
+"Absences=Medium, Failures=0, Result=Pass",3,0.243
+"FamilySize=GT3, Result=Pass, Sex=F",3,0.243
+"G1Level=Medium, HigherEducation=yes, Sex=F",3,0.243
+"Failures=0, FamilySupport=no, Internet=yes",3,0.243
+"Absences=Medium, Result=Pass, SchoolSupport=no",3,0.243
+"Activities=yes, SchoolSupport=no, Sex=M",3,0.243
+"FamilySize=GT3, G1Level=Low, HigherEducation=yes",3,0.2405
+"FamilySupport=yes, HigherEducation=yes, Sex=M",3,0.2405
+"Absences=Low, HigherEducation=yes, Sex=F",3,0.2405
+"AgeGroup=17-18, SchoolSupport=no, Sex=F",3,0.2405
+"Absences=Low, Address=U, FamilySupport=yes",3,0.2405
+"Absences=Low, Failures=0, FamilySupport=yes",3,0.2405
+"Absences=Low, FamilySupport=yes, SchoolSupport=no",3,0.2405
+"FamilySize=LE3, HigherEducation=yes, SchoolSupport=no",3,0.2405
+"G2Level=Medium, HigherEducation=yes, Sex=F",3,0.2405
+"HigherEducation=yes, Result=Fail, SchoolSupport=no",3,0.238
+"AgeGroup=<=16, FamilySupport=yes, SchoolSupport=no",3,0.238
+"G1Level=Low, G2Level=Low, Internet=yes",3,0.238
+"G1Level=Medium, G2Level=Medium, Romantic=no",3,0.238
+"Internet=yes, Result=Fail, School=GP",3,0.238
+"Activities=yes, FamilySize=GT3, FamilySupport=yes",3,0.238
+"FamilySize=LE3, HigherEducation=yes, School=GP",3,0.238
+"AgeGroup=17-18, Internet=yes, Result=Pass",3,0.238
+"Absences=Low, FamilySize=GT3, Romantic=no",3,0.238
+"AgeGroup=<=16, School=GP, Sex=M",3,0.238
+"Activities=no, Result=Pass, Romantic=no",3,0.2354
+"Activities=yes, School=GP, StudyTime=2-5 hrs",3,0.2354
+"HigherEducation=yes, Internet=yes, Result=Fail",3,0.2354
+"FamilySize=GT3, G1Level=Low, School=GP",3,0.2354
+"FamilySupport=yes, School=GP, Sex=M",3,0.2354
+"G2Level=Low, Internet=yes, SchoolSupport=no",3,0.2354
+"Activities=no, Failures=0, Sex=F",3,0.2354
+"AgeGroup=<=16, FamilySupport=yes, Romantic=no",3,0.2354
+"Address=U, G2Level=Medium, Romantic=no",3,0.2354
+"Absences=Medium, Address=U, Failures=0",3,0.2354
+"Address=U, Romantic=yes, SchoolSupport=no",3,0.2354
+"Absences=Low, FamilySize=GT3, FamilySupport=yes",3,0.2354
+"Activities=no, FamilySize=GT3, Romantic=no",3,0.2329
+"AgeGroup=<=16, School=GP, Sex=F",3,0.2329
+"FamilySupport=no, Romantic=no, SchoolSupport=no",3,0.2329
+"FamilySize=GT3, G2Level=Low, Result=Fail",3,0.2329
+"Activities=yes, G2Level=Medium, HigherEducation=yes",3,0.2329
+"Absences=Medium, Romantic=no, School=GP",3,0.2329
+"Address=U, FamilySize=LE3, HigherEducation=yes",3,0.2329
+"Activities=no, Address=U, Sex=F",3,0.2329
+"AgeGroup=<=16, HigherEducation=yes, Sex=F",3,0.2329
+"G1Level=Low, HigherEducation=yes, Romantic=no",3,0.2329
+"Activities=yes, AgeGroup=<=16, Internet=yes",3,0.2329
+"FamilySize=GT3, FamilySupport=no, HigherEducation=yes",3,0.2329
+"Activities=yes, Result=Pass, Romantic=no",3,0.2329
+"AgeGroup=<=16, School=GP, StudyTime=2-5 hrs",3,0.2329
+"Address=U, Internet=yes, Romantic=yes",3,0.2329
+"Address=U, FamilySize=GT3, Sex=M",3,0.2329
+"G1Level=Low, HigherEducation=yes, Result=Fail",3,0.2329
+"FamilySupport=yes, Romantic=no, Sex=F",3,0.2329
+"Failures=0, FamilySupport=no, Result=Pass",3,0.2329
+"Absences=Medium, Address=U, Internet=yes",3,0.2304
+"Failures=0, HigherEducation=yes, Romantic=yes",3,0.2304
+"Address=U, Failures=0, FamilySupport=no",3,0.2304
+"FamilySize=GT3, Romantic=no, Sex=M",3,0.2304
+"Activities=yes, Internet=yes, Sex=M",3,0.2304
+"FamilySupport=no, Result=Pass, School=GP",3,0.2304
+"Absences=Medium, Internet=yes, Result=Pass",3,0.2304
+"FamilySize=GT3, FamilySupport=no, SchoolSupport=no",3,0.2304
+"FamilySize=LE3, HigherEducation=yes, Internet=yes",3,0.2304
+"Activities=yes, Address=U, FamilySupport=yes",3,0.2304
+"Address=U, Romantic=yes, School=GP",3,0.2304
+"Absences=Medium, FamilySize=GT3, School=GP",3,0.2304
+"Activities=no, AgeGroup=17-18, SchoolSupport=no",3,0.2304
+"AgeGroup=<=16, HigherEducation=yes, StudyTime=2-5 hrs",3,0.2304
+"AgeGroup=<=16, HigherEducation=yes, Sex=M",3,0.2304
+"G2Level=Medium, Result=Pass, Sex=F",3,0.2304
+"Activities=yes, G1Level=Medium, HigherEducation=yes",3,0.2304
+"G1Level=Low, Internet=yes, SchoolSupport=no",3,0.2304
+"Absences=Low, HigherEducation=yes, StudyTime=2-5 hrs",3,0.2304
+"Internet=yes, Sex=F, StudyTime=2-5 hrs",3,0.2304
+"FamilySupport=yes, Internet=yes, Sex=M",3,0.2304
+"SchoolSupport=no, Sex=F, StudyTime=2-5 hrs",3,0.2278
+"Absences=Medium, FamilySize=GT3, SchoolSupport=no",3,0.2278
+"Result=Fail, School=GP, SchoolSupport=no",3,0.2278
+"Activities=no, G1Level=Medium, HigherEducation=yes",3,0.2278
+"Failures=0, Sex=F, StudyTime=2-5 hrs",3,0.2278
+"Address=U, Result=Fail, School=GP",3,0.2278
+"FamilySize=GT3, G2Level=Low, SchoolSupport=no",3,0.2278
+"Absences=Medium, Address=U, SchoolSupport=no",3,0.2278
+"Activities=no, Internet=yes, Sex=F",3,0.2278
+"Absences=Low, Result=Pass, Romantic=no",3,0.2278
+"AgeGroup=<=16, G1Level=Medium, School=GP",3,0.2278
+"Activities=yes, AgeGroup=<=16, Failures=0",3,0.2278
+"AgeGroup=<=16, G2Level=Medium, School=GP",3,0.2253
+"Address=U, G2Level=Low, Result=Fail",3,0.2253
+"Failures=0, FamilySize=LE3, HigherEducation=yes",3,0.2253
+"AgeGroup=17-18, FamilySupport=yes, School=GP",3,0.2253
+"Activities=no, HigherEducation=yes, StudyTime=2-5 hrs",3,0.2253
+"G1Level=Low, Result=Fail, School=GP",3,0.2253
+"Address=U, FamilySupport=yes, G1Level=Medium",3,0.2253
+"AgeGroup=17-18, Failures=0, Sex=F",3,0.2253
+"FamilySize=GT3, Result=Pass, Sex=M",3,0.2253
+"AgeGroup=17-18, FamilySupport=yes, Internet=yes",3,0.2253
+"Address=U, G1Level=Medium, Romantic=no",3,0.2253
+"FamilySupport=no, Internet=yes, Result=Pass",3,0.2253
+"Absences=Medium, Failures=0, Romantic=no",3,0.2253
+"Absences=Low, AgeGroup=<=16, Internet=yes",3,0.2253
+"FamilySize=GT3, FamilySupport=yes, StudyTime=2-5 hrs",3,0.2228
+"Activities=yes, Internet=yes, StudyTime=2-5 hrs",3,0.2228
+"FamilySupport=yes, SchoolSupport=no, Sex=M",3,0.2228
+"FamilySupport=yes, G1Level=Low, School=GP",3,0.2228
+"G1Level=Medium, HigherEducation=yes, StudyTime=2-5 hrs",3,0.2228
+"AgeGroup=17-18, Romantic=no, School=GP",3,0.2228
+"AgeGroup=<=16, G1Level=Medium, HigherEducation=yes",3,0.2228
+"Address=U, HigherEducation=yes, Result=Fail",3,0.2228
+"Absences=Low, AgeGroup=<=16, Failures=0",3,0.2228
+"Activities=no, FamilySize=GT3, FamilySupport=yes",3,0.2228
+"Result=Pass, Romantic=no, Sex=F",3,0.2228
+"Absences=Medium, Failures=0, FamilySize=GT3",3,0.2228
+"Activities=yes, G2Level=Medium, Result=Pass",3,0.2228
+"FamilySupport=yes, G1Level=Low, HigherEducation=yes",3,0.2228
+"Failures=0, G2Level=Low, HigherEducation=yes",3,0.2228
+"Activities=no, G1Level=Medium, SchoolSupport=no",3,0.2228
+"AgeGroup=17-18, Failures=0, Romantic=no",3,0.2228
+"Address=U, FamilySupport=no, Result=Pass",3,0.2228
+"G2Level=Medium, HigherEducation=yes, StudyTime=2-5 hrs",3,0.2228
+"Activities=no, AgeGroup=17-18, HigherEducation=yes",3,0.2203
+"Absences=Low, Address=U, AgeGroup=<=16",3,0.2203
+"FamilySupport=yes, G1Level=Medium, G2Level=Medium",3,0.2203
+"FamilySize=GT3, G1Level=Low, G2Level=Low",3,0.2203
+"FamilySupport=yes, G2Level=Low, HigherEducation=yes",3,0.2203
+"Address=U, G1Level=Low, G2Level=Low",3,0.2203
+"Failures=0, Romantic=yes, SchoolSupport=no",3,0.2203
+"Failures=0, Internet=yes, Romantic=yes",3,0.2203
+"Activities=yes, G1Level=Medium, School=GP",3,0.2203
+"FamilySize=GT3, HigherEducation=yes, Result=Fail",3,0.2203
+"Activities=yes, Failures=0, Sex=M",3,0.2203
+"Activities=yes, G2Level=Medium, School=GP",3,0.2203
+"AgeGroup=<=16, G2Level=Medium, HigherEducation=yes",3,0.2203
+"Activities=no, FamilySize=GT3, Result=Pass",3,0.2203
+"AgeGroup=17-18, HigherEducation=yes, StudyTime=2-5 hrs",3,0.2203
+"G1Level=Medium, School=GP, Sex=F",3,0.2203
+"FamilySize=GT3, G2Level=Medium, Romantic=no",3,0.2203
+"FamilySize=GT3, G1Level=Medium, Romantic=no",3,0.2203
+"FamilySize=GT3, Romantic=no, StudyTime=2-5 hrs",3,0.2203
+"G1Level=Low, Result=Fail, SchoolSupport=no",3,0.2203
+"Address=U, FamilySupport=yes, G2Level=Medium",3,0.2203
+"Absences=Low, SchoolSupport=no, StudyTime=2-5 hrs",3,0.2203
+"FamilySupport=yes, Result=Pass, Sex=F",3,0.2203
+"AgeGroup=<=16, FamilySupport=yes, Result=Pass",3,0.2177
+"Absences=Low, Activities=yes, HigherEducation=yes",3,0.2177
+"FamilySupport=yes, Romantic=no, StudyTime=2-5 hrs",3,0.2177
+"Absences=Medium, Romantic=no, SchoolSupport=no",3,0.2177
+"Address=U, G2Level=Low, Internet=yes",3,0.2177
+"Absences=Medium, FamilySize=GT3, Internet=yes",3,0.2177
+"Address=U, G2Level=Low, SchoolSupport=no",3,0.2177
+"FamilySupport=yes, G2Level=Low, School=GP",3,0.2177
+"Activities=yes, FamilySupport=yes, Result=Pass",3,0.2177
+"Activities=yes, Address=U, AgeGroup=<=16",3,0.2177
+"Failures=0, G1Level=Medium, Sex=F",3,0.2177
+"Activities=yes, School=GP, Sex=F",3,0.2177
+"Activities=no, G2Level=Medium, Result=Pass",3,0.2177
+"Failures=0, G1Level=Low, HigherEducation=yes",3,0.2177
+"FamilySize=GT3, G2Level=Low, Internet=yes",3,0.2177
+"Absences=Low, FamilySize=GT3, Result=Pass",3,0.2177
+"G2Level=Medium, School=GP, Sex=F",3,0.2177
+"Address=U, G1Level=Low, Internet=yes",3,0.2177
+"G2Level=Medium, Result=Pass, StudyTime=2-5 hrs",3,0.2177
+"G2Level=Low, HigherEducation=yes, Romantic=no",3,0.2177
+"AgeGroup=17-18, Result=Pass, School=GP",3,0.2177
+"AgeGroup=<=16, G2Level=Medium, Result=Pass",3,0.2152
+"G1Level=Low, Romantic=no, School=GP",3,0.2152
+"AgeGroup=17-18, SchoolSupport=no, StudyTime=2-5 hrs",3,0.2152
+"FamilySize=GT3, HigherEducation=yes, Romantic=yes",3,0.2152
+"Activities=yes, SchoolSupport=no, StudyTime=2-5 hrs",3,0.2152
+"G1Level=Low, Internet=yes, Result=Fail",3,0.2152
+"Internet=yes, Result=Fail, SchoolSupport=no",3,0.2152
+"Absences=Low, Activities=no, HigherEducation=yes",3,0.2152
+"FamilySize=GT3, FamilySupport=yes, G1Level=Medium",3,0.2152
+"Absences=Low, Activities=yes, School=GP",3,0.2152
+"Address=U, AgeGroup=17-18, FamilySize=GT3",3,0.2152
+"AgeGroup=17-18, Internet=yes, Romantic=no",3,0.2152
+"FamilySize=GT3, G1Level=Low, Internet=yes",3,0.2152
+"AgeGroup=17-18, Failures=0, FamilySupport=yes",3,0.2152
+"G1Level=Medium, HigherEducation=yes, Sex=M",3,0.2152
+"FamilySize=GT3, Romantic=yes, SchoolSupport=no",3,0.2127
+"FamilySize=GT3, FamilySupport=no, School=GP",3,0.2127
+"G1Level=Medium, SchoolSupport=no, Sex=F",3,0.2127
+"Activities=yes, Address=U, StudyTime=2-5 hrs",3,0.2127
+"AgeGroup=17-18, G1Level=Medium, HigherEducation=yes",3,0.2127
+"Activities=no, G2Level=Medium, HigherEducation=yes",3,0.2127
+"Absences=Low, School=GP, StudyTime=2-5 hrs",3,0.2127
+"AgeGroup=17-18, G1Level=Medium, SchoolSupport=no",3,0.2127
+"Address=U, AgeGroup=<=16, StudyTime=2-5 hrs",3,0.2127
+"FamilySupport=no, Romantic=no, School=GP",3,0.2127
+"Absences=Medium, FamilySupport=yes, HigherEducation=yes",3,0.2127
+"FamilySize=GT3, Result=Pass, StudyTime=2-5 hrs",3,0.2127
+"FamilySize=GT3, Result=Fail, School=GP",3,0.2127
+"HigherEducation=yes, SchoolSupport=no, StudyTime=<2 hrs",3,0.2127
+"FamilySize=LE3, School=GP, SchoolSupport=no",3,0.2127
+"FamilySupport=no, SchoolSupport=no, Sex=M",3,0.2127
+"Activities=no, G1Level=Medium, Result=Pass",3,0.2127
+"AgeGroup=<=16, Failures=0, Sex=M",3,0.2101
+"G2Level=Medium, Result=Pass, Sex=M",3,0.2101
+"Activities=no, SchoolSupport=no, StudyTime=2-5 hrs",3,0.2101
+"FamilySize=LE3, Internet=yes, SchoolSupport=no",3,0.2101
+"FamilySize=GT3, G1Level=Low, SchoolSupport=no",3,0.2101
+"Absences=Low, Activities=no, SchoolSupport=no",3,0.2101
+"Address=U, G1Level=Low, SchoolSupport=no",3,0.2101
+"Activities=yes, Failures=0, G1Level=Medium",3,0.2101
+"Failures=0, FamilySupport=no, Romantic=no",3,0.2101
+"Activities=no, FamilySize=GT3, Sex=F",3,0.2101
+"Address=U, FamilySize=LE3, School=GP",3,0.2101
+"Absences=Low, G1Level=Medium, HigherEducation=yes",3,0.2101
+"Result=Pass, Romantic=no, StudyTime=2-5 hrs",3,0.2101
+"FamilySize=GT3, FamilySupport=yes, G2Level=Medium",3,0.2101
+"Activities=no, School=GP, StudyTime=2-5 hrs",3,0.2101
+"Activities=yes, FamilySupport=yes, Romantic=no",3,0.2101
+"FamilySize=LE3, Internet=yes, School=GP",3,0.2101
+"Address=U, FamilySize=LE3, SchoolSupport=no",3,0.2076
+"Activities=yes, AgeGroup=<=16, Result=Pass",3,0.2076
+"FamilySupport=yes, Result=Pass, StudyTime=2-5 hrs",3,0.2076
+"Absences=Low, Failures=0, Sex=F",3,0.2076
+"Activities=yes, AgeGroup=<=16, SchoolSupport=no",3,0.2076
+"FamilySize=GT3, Internet=yes, Romantic=yes",3,0.2076
+"Absences=Low, Failures=0, StudyTime=2-5 hrs",3,0.2076
+"AgeGroup=<=16, SchoolSupport=no, Sex=M",3,0.2076
+"G1Level=Medium, SchoolSupport=no, Sex=M",3,0.2076
+"Absences=Low, SchoolSupport=no, Sex=F",3,0.2076
+"Address=U, FamilySize=LE3, Internet=yes",3,0.2076
+"Activities=yes, Failures=0, StudyTime=2-5 hrs",3,0.2076
+"Failures=0, G2Level=Low, School=GP",3,0.2076
+"Activities=no, Failures=0, G1Level=Medium",3,0.2051
+"FamilySupport=yes, HigherEducation=yes, Result=Fail",3,0.2051
+"Failures=0, G1Level=Low, School=GP",3,0.2051
+"G1Level=Medium, Internet=yes, Sex=F",3,0.2051
+"HigherEducation=yes, Sex=M, StudyTime=2-5 hrs",3,0.2051
+"G1Level=Medium, Result=Pass, Sex=F",3,0.2051
+"G1Level=Medium, Result=Pass, Sex=M",3,0.2051
+"G2Level=Medium, HigherEducation=yes, Sex=M",3,0.2051
+"AgeGroup=<=16, Internet=yes, Sex=F",3,0.2051
+"G1Level=Medium, SchoolSupport=no, StudyTime=2-5 hrs",3,0.2051
+"AgeGroup=<=16, G1Level=Medium, Result=Pass",3,0.2051
+"Failures=0, Romantic=yes, School=GP",3,0.2051
+"Absences=Low, Failures=0, G1Level=Medium",3,0.2051
+"Activities=no, AgeGroup=<=16, School=GP",3,0.2051
+"AgeGroup=17-18, Failures=0, G1Level=Medium",3,0.2051
+"Absences=Low, School=GP, Sex=F",3,0.2051
+"Address=U, AgeGroup=<=16, G2Level=Medium",3,0.2051
+"Failures=0, G2Level=Medium, Sex=F",3,0.2051
+"Activities=yes, Address=U, Sex=M",3,0.2025
+"G2Level=Low, HigherEducation=yes, Sex=F",3,0.2025
+"Failures=0, G1Level=Medium, StudyTime=2-5 hrs",3,0.2025
+"Activities=yes, G2Level=Medium, Internet=yes",3,0.2025
+"Address=U, AgeGroup=<=16, Sex=F",3,0.2025
+"Activities=yes, Internet=yes, Sex=F",3,0.2025
+"FamilySize=GT3, Romantic=yes, School=GP",3,0.2025
+"AgeGroup=<=16, Failures=0, G1Level=Medium",3,0.2025
+"Absences=Low, School=GP, Sex=M",3,0.2025
+"Absences=Medium, Activities=yes, HigherEducation=yes",3,0.2025
+"G1Level=Low, HigherEducation=yes, Sex=F",3,0.2025
+"Activities=yes, AgeGroup=17-18, HigherEducation=yes",3,0.2025
+"FamilySize=GT3, Result=Fail, SchoolSupport=no",3,0.2025
+"Absences=Low, Address=U, StudyTime=2-5 hrs",3,0.2025
+"G2Level=Medium, Internet=yes, Sex=F",3,0.2025
+"Absences=Low, Internet=yes, Sex=F",3,0.2025
+"G2Level=Medium, SchoolSupport=no, Sex=M",3,0.2025
+"Failures=0, FamilySize=LE3, SchoolSupport=no",3,0.2025
+"Activities=no, FamilySupport=yes, Sex=F",3,0.2025
+"Absences=Medium, Address=U, Result=Pass",3,0.2025
+"Address=U, AgeGroup=<=16, Sex=M",3,0.2025
+"Activities=yes, AgeGroup=17-18, SchoolSupport=no",3,0.2025
+"AgeGroup=<=16, Internet=yes, Sex=M",3,0.2025
+"Absences=Medium, Internet=yes, Romantic=no",3,0.2025
+"Failures=0, FamilySize=LE3, Internet=yes",3,0.2025
+"Address=U, Internet=yes, Result=Fail",3,0.2025
+"G1Level=Medium, School=GP, StudyTime=2-5 hrs",3,0.2
+"Address=U, G1Level=Low, Result=Fail",3,0.2
+"FamilySupport=yes, G2Level=Low, Result=Fail",3,0.2
+"AgeGroup=17-18, G2Level=Medium, SchoolSupport=no",3,0.2
+"Address=U, Result=Fail, SchoolSupport=no",3,0.2
+"Absences=Medium, FamilySize=GT3, Result=Pass",3,0.2
+"Absences=Low, Activities=no, Failures=0",3,0.2
+"AgeGroup=<=16, G1Level=Medium, Internet=yes",3,0.2
+"AgeGroup=17-18, School=GP, Sex=F",3,0.2
+"Activities=no, AgeGroup=<=16, HigherEducation=yes",3,0.2
+"Absences=Medium, Address=U, Romantic=no",3,0.2
+"Activities=yes, G2Level=Medium, SchoolSupport=no",3,0.2
+"Activities=no, G2Level=Medium, SchoolSupport=no",3,0.2
+"FamilySupport=yes, Result=Fail, School=GP",3,0.2
+"Address=U, AgeGroup=<=16, G1Level=Medium",3,0.2
+"Activities=yes, G1Level=Medium, Internet=yes",3,0.2
+"Activities=no, Address=U, StudyTime=2-5 hrs",3,0.2
+"Activities=yes, Failures=0, G2Level=Medium",3,0.2
+"Absences=Low, AgeGroup=<=16, SchoolSupport=no",3,0.2
+"School=GP, SchoolSupport=no, StudyTime=<2 hrs",3,0.2
+"FamilySupport=no, Internet=yes, Romantic=no",3,0.2
+"Activities=no, G1Level=Medium, Internet=yes",3,0.2
+"HigherEducation=yes, School=GP, StudyTime=<2 hrs",3,0.2
+"Failures=0, FamilySupport=yes, Sex=M",3,0.2
+"Activities=no, G1Level=Medium, School=GP",3,0.1975
+"HigherEducation=yes, Result=Pass, Romantic=yes",3,0.1975
+"AgeGroup=<=16, Failures=0, StudyTime=2-5 hrs",3,0.1975
+"Absences=Low, AgeGroup=<=16, FamilySize=GT3",3,0.1975
+"AgeGroup=17-18, FamilySize=GT3, Romantic=no",3,0.1975
+"Absences=Low, FamilySupport=yes, Romantic=no",3,0.1975
+"AgeGroup=<=16, Internet=yes, StudyTime=2-5 hrs",3,0.1975
+"AgeGroup=17-18, G2Level=Medium, HigherEducation=yes",3,0.1975
+"Activities=yes, G1Level=Medium, SchoolSupport=no",3,0.1975
+"Failures=0, G1Level=Medium, Sex=M",3,0.1975
+"G1Level=Medium, Result=Pass, StudyTime=2-5 hrs",3,0.1975
+"Activities=yes, G1Level=Medium, Result=Pass",3,0.1975
+"Absences=Low, Activities=no, Internet=yes",3,0.1975
+"G2Level=Medium, School=GP, StudyTime=2-5 hrs",3,0.1975
+"Internet=yes, SchoolSupport=no, StudyTime=<2 hrs",3,0.1975
+"Activities=no, AgeGroup=17-18, Failures=0",3,0.1975
+"G2Level=Medium, SchoolSupport=no, Sex=F",3,0.1975
+"AgeGroup=17-18, Internet=yes, Sex=F",3,0.1975
+"Address=U, AgeGroup=17-18, Result=Pass",3,0.1975
+"Address=U, Failures=0, Romantic=yes",3,0.1975
+"Absences=Low, SchoolSupport=no, Sex=M",3,0.1975
+"G1Level=Medium, School=GP, Sex=M",3,0.1975
+"Absences=Medium, Result=Pass, Romantic=no",3,0.1975
+"SchoolSupport=no, Sex=M, StudyTime=2-5 hrs",3,0.1975
+"FamilySize=GT3, Internet=yes, Result=Fail",3,0.1975
+"Activities=no, Address=U, G1Level=Medium",3,0.1975
+"FamilySize=LE3, HigherEducation=yes, Result=Pass",3,0.1975
+"Activities=yes, Result=Pass, Sex=M",3,0.1949
+"G1Level=Medium, Internet=yes, StudyTime=2-5 hrs",3,0.1949
+"Activities=no, FamilySupport=yes, Romantic=no",3,0.1949
+"FamilySupport=yes, HigherEducation=yes, Romantic=yes",3,0.1949
+"Absences=Low, Address=U, Sex=F",3,0.1949
+"G1Level=Medium, Internet=yes, Sex=M",3,0.1949
+"AgeGroup=<=16, Failures=0, G2Level=Medium",3,0.1949
+"Address=U, FamilySupport=no, Romantic=no",3,0.1949
+"AgeGroup=<=16, Result=Pass, Sex=M",3,0.1949
+"Absences=Low, Activities=yes, SchoolSupport=no",3,0.1949
+"Failures=0, FamilySize=LE3, School=GP",3,0.1949
+"AgeGroup=<=16, G2Level=Medium, Internet=yes",3,0.1949
+"AgeGroup=17-18, G2Level=Medium, Result=Pass",3,0.1949
+"G2Level=Medium, SchoolSupport=no, StudyTime=2-5 hrs",3,0.1949
+"AgeGroup=17-18, Failures=0, StudyTime=2-5 hrs",3,0.1949
+"FamilySize=GT3, FamilySupport=no, Internet=yes",3,0.1949
+"Failures=0, FamilySize=GT3, FamilySupport=no",3,0.1949
+"G1Level=Low, G2Level=Low, Romantic=no",3,0.1949
+"Address=U, FamilySupport=yes, Sex=M",3,0.1949
+"Activities=yes, AgeGroup=<=16, FamilySize=GT3",3,0.1949
+"School=GP, Sex=M, StudyTime=2-5 hrs",3,0.1949
+"G2Level=Low, Romantic=no, School=GP",3,0.1949
+"AgeGroup=17-18, FamilySize=GT3, FamilySupport=yes",3,0.1924
+"FamilySize=GT3, G1Level=Low, Result=Fail",3,0.1924
+"Activities=no, AgeGroup=17-18, Internet=yes",3,0.1924
+"G2Level=Medium, Internet=yes, StudyTime=2-5 hrs",3,0.1924
+"AgeGroup=17-18, SchoolSupport=no, Sex=M",3,0.1924
+"Activities=no, Failures=0, G2Level=Medium",3,0.1924
+"Address=U, FamilySize=GT3, G2Level=Low",3,0.1924
+"Activities=no, SchoolSupport=no, Sex=M",3,0.1924
+"FamilySupport=no, Result=Pass, Romantic=no",3,0.1924
+"Absences=Low, HigherEducation=yes, Sex=M",3,0.1924
+"Activities=yes, SchoolSupport=no, Sex=F",3,0.1924
+"Absences=Medium, FamilySupport=yes, School=GP",3,0.1924
+"AgeGroup=<=16, Failures=0, Sex=F",3,0.1924
+"Failures=0, G2Level=Medium, StudyTime=2-5 hrs",3,0.1924
+"Address=U, G1Level=Medium, StudyTime=2-5 hrs",3,0.1924
+"FamilySupport=no, HigherEducation=yes, Sex=M",3,0.1924
+"FamilySize=GT3, Sex=F, StudyTime=2-5 hrs",3,0.1924
+"FamilySupport=yes, G2Level=Low, Internet=yes",3,0.1924
+"HigherEducation=yes, Romantic=yes, Sex=F",3,0.1924
+"Absences=Low, Activities=no, Address=U",3,0.1924
+"Activities=no, Failures=0, StudyTime=2-5 hrs",3,0.1924
+"AgeGroup=17-18, Failures=0, G2Level=Medium",3,0.1924
+"Absences=Low, Activities=no, School=GP",3,0.1924
+"Address=U, G1Level=Medium, Sex=F",3,0.1899
+"Activities=yes, Failures=0, Sex=F",3,0.1899
+"Address=U, FamilySize=GT3, G1Level=Low",3,0.1899
+"G2Level=Medium, School=GP, Sex=M",3,0.1899
+"FamilySupport=yes, G1Level=Low, G2Level=Low",3,0.1899
+"Activities=yes, FamilySupport=no, HigherEducation=yes",3,0.1899
+"Activities=yes, AgeGroup=<=16, Romantic=no",3,0.1899
+"FamilySupport=yes, Internet=yes, Romantic=yes",3,0.1899
+"FamilySupport=yes, G1Level=Low, Internet=yes",3,0.1899
+"HigherEducation=yes, Internet=yes, StudyTime=<2 hrs",3,0.1899
+"Failures=0, HigherEducation=yes, Result=Fail",3,0.1899
+"Absences=Low, G2Level=Medium, HigherEducation=yes",3,0.1899
+"Absences=Low, Internet=yes, StudyTime=2-5 hrs",3,0.1899
+"FamilySupport=yes, G2Level=Medium, Romantic=no",3,0.1899
+"Activities=no, G1Level=Medium, G2Level=Medium",3,0.1899
+"AgeGroup=17-18, FamilySize=GT3, Sex=F",3,0.1899
+"Address=U, G2Level=Medium, StudyTime=2-5 hrs",3,0.1899
+"G1Level=Low, Internet=yes, Romantic=no",3,0.1899
+"Absences=Low, G1Level=Medium, SchoolSupport=no",3,0.1899
+"Result=Pass, Romantic=yes, SchoolSupport=no",3,0.1873
+"Absences=Low, AgeGroup=<=16, Result=Pass",3,0.1873
+"AgeGroup=17-18, FamilySupport=no, SchoolSupport=no",3,0.1873
+"Absences=Low, FamilySize=GT3, Sex=F",3,0.1873
+"AgeGroup=17-18, Result=Pass, Romantic=no",3,0.1873
+"FamilySize=LE3, Result=Pass, SchoolSupport=no",3,0.1873
+"Address=U, G2Level=Medium, Sex=F",3,0.1873
+"Activities=no, G2Level=Medium, Internet=yes",3,0.1873
+"FamilySupport=yes, Sex=F, StudyTime=2-5 hrs",3,0.1873
+"Address=U, Failures=0, FamilySize=LE3",3,0.1873
+"Absences=Medium, Failures=0, FamilySupport=yes",3,0.1873
+"G1Level=Low, Romantic=no, SchoolSupport=no",3,0.1873
+"HigherEducation=yes, Result=Fail, Romantic=no",3,0.1873
+"Address=U, G1Level=Low, Romantic=no",3,0.1873
+"Absences=Medium, HigherEducation=yes, Sex=F",3,0.1873
+"Activities=no, Address=U, AgeGroup=<=16",3,0.1873
+"G1Level=Medium, G2Level=Medium, Sex=F",3,0.1873
+"HigherEducation=yes, Romantic=no, StudyTime=<2 hrs",3,0.1873
+"Address=U, AgeGroup=17-18, FamilySupport=yes",3,0.1873
+"Failures=0, G2Level=Medium, Sex=M",3,0.1873
+"Absences=Medium, Address=U, FamilySize=GT3",3,0.1873
+"Activities=no, Result=Pass, Sex=F",3,0.1873
+"AgeGroup=17-18, Internet=yes, StudyTime=2-5 hrs",3,0.1873
+"Activities=no, G2Level=Medium, School=GP",3,0.1873
+"G2Level=Medium, Internet=yes, Sex=M",3,0.1873
+"G2Level=Low, Result=Fail, Romantic=no",3,0.1848
+"FamilySize=GT3, FamilySupport=no, Romantic=no",3,0.1848
+"Address=U, School=GP, StudyTime=<2 hrs",3,0.1848
+"FamilySize=GT3, FamilySupport=yes, G2Level=Low",3,0.1848
+"AgeGroup=17-18, School=GP, StudyTime=2-5 hrs",3,0.1848
+"Absences=Low, AgeGroup=<=16, Romantic=no",3,0.1848
+"Activities=no, Internet=yes, StudyTime=2-5 hrs",3,0.1848
+"FamilySupport=yes, Internet=yes, Result=Fail",3,0.1848
+"Absences=Medium, Activities=yes, Failures=0",3,0.1848
+"Address=U, G1Level=Medium, Sex=M",3,0.1848
+"Absences=Low, AgeGroup=17-18, SchoolSupport=no",3,0.1848
+"Internet=yes, School=GP, StudyTime=<2 hrs",3,0.1848
+"G2Level=Low, Romantic=no, SchoolSupport=no",3,0.1848
+"Absences=Low, G2Level=Medium, Result=Pass",3,0.1848
+"FamilySupport=no, School=GP, Sex=M",3,0.1848
+"Absences=Medium, FamilySize=GT3, Romantic=no",3,0.1848
+"G1Level=Low, School=GP, Sex=F",3,0.1848
+"Absences=Medium, G2Level=Medium, HigherEducation=yes",3,0.1848
+"G1Level=Low, HigherEducation=yes, StudyTime=2-5 hrs",3,0.1848
+"Activities=yes, FamilySize=GT3, Sex=F",3,0.1848
+"Absences=Low, G1Level=Medium, School=GP",3,0.1848
+"AgeGroup=<=16, G1Level=Medium, SchoolSupport=no",3,0.1848
+"AgeGroup=17-18, G1Level=Medium, Result=Pass",3,0.1848
+"FamilySize=GT3, FamilySupport=yes, G1Level=Low",3,0.1848
+"SchoolSupport=no, Sex=M, StudyTime=<2 hrs",3,0.1823
+"Absences=Low, FamilySupport=yes, Result=Pass",3,0.1823
+"G1Level=Medium, G2Level=Medium, StudyTime=2-5 hrs",3,0.1823
+"Absences=Medium, FamilySupport=yes, SchoolSupport=no",3,0.1823
+"Address=U, FamilySupport=yes, G1Level=Low",3,0.1823
+"Absences=Low, G1Level=Medium, Result=Pass",3,0.1823
+"FamilySupport=yes, Romantic=yes, SchoolSupport=no",3,0.1823
+"AgeGroup=<=16, Romantic=no, Sex=M",3,0.1823
+"Failures=0, Result=Fail, School=GP",3,0.1823
+"G2Level=Low, School=GP, Sex=F",3,0.1823
+"Activities=yes, AgeGroup=17-18, Internet=yes",3,0.1823
+"AgeGroup=17-18, FamilySize=GT3, Result=Pass",3,0.1823
+"FamilySize=GT3, G1Level=Low, Romantic=no",3,0.1823
+"Activities=no, Address=U, G2Level=Medium",3,0.1823
+"Activities=yes, Address=U, G2Level=Medium",3,0.1823
+"Address=U, AgeGroup=17-18, Sex=F",3,0.1823
+"G2Level=Low, HigherEducation=yes, StudyTime=2-5 hrs",3,0.1823
+"Activities=yes, AgeGroup=<=16, FamilySupport=yes",3,0.1823
+"Activities=yes, Address=U, Sex=F",3,0.1823
+"Absences=Medium, G2Level=Medium, Result=Pass",3,0.1823
+"Activities=no, AgeGroup=17-18, School=GP",3,0.1823
+"Failures=0, G2Level=Low, SchoolSupport=no",3,0.1823
+"Failures=0, G2Level=Low, Result=Fail",3,0.1823
+"FamilySupport=yes, Romantic=yes, School=GP",3,0.1823
+"Absences=Medium, Activities=yes, School=GP",3,0.1823
+"Absences=Medium, Activities=yes, SchoolSupport=no",3,0.1823
+"FamilySize=LE3, HigherEducation=yes, Romantic=no",3,0.1823
+"HigherEducation=yes, Result=Fail, Sex=F",3,0.1823
+"Address=U, FamilySupport=yes, G2Level=Low",3,0.1823
+"Activities=no, HigherEducation=yes, Sex=M",3,0.1823
+"Romantic=no, SchoolSupport=no, StudyTime=<2 hrs",3,0.1823
+"Address=R, HigherEducation=yes, SchoolSupport=no",3,0.1823

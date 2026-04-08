@@ -1,8 +1,14 @@
-# Student Performance Prediction Using Decision Tree
+# Student Performance Analysis Using Decision Tree, OLAP, and Apriori
 
 This repository contains a student performance prediction project built using the UCI Student Performance dataset.
 
-The project uses the `student-mat.csv` dataset and applies a Decision Tree classifier to predict whether a student will pass or fail based on factors such as study time, past failures, family background, absences, and previous grades.
+The project uses the `student-mat.csv` dataset and combines multiple data mining techniques:
+
+- `OLAP` style grouped summaries and pivot-table analysis
+- `Apriori` association rule mining
+- `Decision Tree` classification for pass/fail prediction
+
+The goal is to show both descriptive and predictive analysis on student performance based on study time, past failures, family background, support systems, absences, and previous grades.
 
 ## What this project does
 
@@ -10,16 +16,19 @@ The project uses the `student-mat.csv` dataset and applies a Decision Tree class
 - preprocesses the data
 - encodes categorical columns
 - creates a pass/fail target using `G3`
+- performs OLAP queries using grouped summaries and pivot tables
+- performs Apriori association analysis on student behavior patterns
 - trains a Decision Tree classifier
 - evaluates the model using accuracy, confusion matrix, and classification report
 - saves graphs in the `graphs/` folder
+- saves OLAP and Apriori output tables in the `analysis_outputs/` folder
 
 ## Main result
 
 - Accuracy: `86.55%`
 - Dataset size: `395` records
 - Features used for training: `32`
-- Model used: Decision Tree Classifier
+- Techniques used: `OLAP + Apriori + Decision Tree`
 - Target:
   `Pass = G3 >= 10`
   `Fail = G3 < 10`
@@ -29,6 +38,7 @@ The project uses the `student-mat.csv` dataset and applies a Decision Tree class
 - `student_performance_analysis.py` - main Python file
 - `archive/student-mat.csv` - dataset used in the project
 - `graphs/` - all generated graphs
+- `analysis_outputs/` - saved OLAP tables and Apriori results
 - `requirements.txt` - libraries needed to run the project
 - `Student_Performance_Project_Report_dm.docx` - final report
 
@@ -42,6 +52,15 @@ The project uses the `student-mat.csv` dataset and applies a Decision Tree class
 - `confusion_matrix.png`
 - `feature_importance.png`
 - `decision_tree.png`
+
+## Analysis outputs generated
+
+- `olap_pass_rate_by_sex_studytime.csv`
+- `olap_grade_summary_school_sex.csv`
+- `olap_support_factors.csv`
+- `olap_cube_studytime_failures_internet.csv`
+- `apriori_frequent_itemsets.csv`
+- `apriori_association_rules.csv`
 
 ## How to run
 
@@ -65,9 +84,11 @@ python3 student_performance_analysis.py
 - matplotlib
 - seaborn
 - scikit-learn
+- custom Apriori implementation using Python combinations
 
 ## Future improvements
 
 - compare Decision Tree with other machine learning models
 - add cross-validation for better evaluation
+- add dashboard-style OLAP visualizations
 - improve the project structure and documentation over time
