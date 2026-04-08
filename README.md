@@ -25,7 +25,7 @@ The goal is to show both descriptive and predictive analysis on student performa
 
 ## Main result
 
-- Accuracy: `86.55%`
+- Accuracy: `93.28%`
 - Dataset size: `395` records
 - Features used for training: `32`
 - Techniques used: `OLAP + Apriori + Decision Tree`
@@ -36,11 +36,12 @@ The goal is to show both descriptive and predictive analysis on student performa
 ## Files in this repo
 
 - `student_performance_analysis.py` - main Python file
+- `student_performance_analysis.ipynb` - notebook version of the project
 - `archive/student-mat.csv` - dataset used in the project
 - `graphs/` - all generated graphs
 - `analysis_outputs/` - saved OLAP tables and Apriori results
 - `requirements.txt` - libraries needed to run the project
-- `Student_Performance_Project_Report_dm.docx` - final report
+- `Student_Performance_Project_Report_dm.md` - report source
 
 ## Graphs generated
 
@@ -52,6 +53,24 @@ The goal is to show both descriptive and predictive analysis on student performa
 - `confusion_matrix.png`
 - `feature_importance.png`
 - `decision_tree.png`
+
+## Sample visuals
+
+### Final grade distribution
+
+![Final grade distribution](graphs/g3_distribution.png)
+
+### Correlation heatmap
+
+![Correlation heatmap](graphs/correlation_heatmap.png)
+
+### Confusion matrix
+
+![Confusion matrix](graphs/confusion_matrix.png)
+
+### Decision tree
+
+![Decision tree](graphs/decision_tree.png)
 
 ## Analysis outputs generated
 
